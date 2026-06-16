@@ -1,0 +1,16 @@
+# Runtime / local agent files
+.omx/
+
+# Local textbook PDFs must not be committed
+source/**/*.pdf
+source/textbook/중요 보안 문서.pdf
+
+# Raw exam screenshots are local style references only
+source/exam-style/*.png
+source/exam-style/*.jpg
+source/exam-style/*.jpeg
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.log

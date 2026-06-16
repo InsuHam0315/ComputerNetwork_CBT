@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>오답노트 | 컴퓨터네트워크 기말고사</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<header class="site-hero"><div class="wrap">
+  <h1>오답노트</h1><p class="lead">CBT에서 틀린 문제와 설명형 자가 오답 표시 문제를 복습합니다.</p>
+  <nav class="top-nav"><a href="../index.html">메인</a><a href="../cbt/network_final_mock.html">CBT</a><a href="../stats/study-record.html">학습기록</a><a href="../notes/network-final/index.html">요약정리</a></nav>
+</div></header>
+<main class="wrap">
+  <section class="card"><div class="row"><div style="flex:1"><h2>저장된 오답</h2><p class="muted">localStorage 키: <code>computerNetworkFinalStudyData</code></p></div><button class="btn bad" id="clearWrong">오답노트 비우기</button></div></section>
+  <section class="card"><div class="row"><label style="flex:1">챕터 필터<select id="chapterFilter"><option value="">전체</option></select></label><label style="flex:1">유형 필터<select id="typeFilter"><option value="">전체</option></select></label></div></section>
+  <section id="wrongList" class="list"></section>
+</main>
+<script src="../assets/storage.js"></script>
+<script src="../data/network_final_questions.js"></script>
+<script>
+(function(){
+  const S=window.CNFinalStorage, questions=window.NETWORK_FINAL_QUESTIONS||[], byId=Object.fromEntries(questions.map(q=>[q.id,q]));
+  const $=id=>document.getElementById(id); const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+  function unique(a){return [...new Set(a.filter(Boolean))].sort((x,y)=>String(x).localeCompare(String(y),'ko'));}
+  function fill(){const data=S.read(); $('chapterFilter').innerHTML='<option value="">전체</option>'+unique(data.wrongNotes.map(x=>x.chapter)).map(x=>`<option>${esc(x)}</option>`).join(''); $('typeFilter').innerHTML='<option value="">전체</option>'+unique(data.wrongNotes.map(x=>x.type)).map(x=>`<option value="${esc(x)}">${esc(S.typeLabels[x]||x)}</option>`).join('');}
+  function render(){const data=S.read(); const ch=$('chapterFilter').value, ty=$('typeFilter').value; const list=data.wrongNotes.filter(x=>(!ch||x.chapter===ch)&&(!ty||x.type===ty)); if(!list.length){$('wrongList').innerHTML='<div class="empty">저장된 오답이 없습니다. CBT를 풀고 오답 저장 또는 채점을 진행해 보세요.</div>'; return;} $('wrongList').innerHTML=list.map(item=>{const q=byId[item.questionId]; const correct=q?S.formatQuestionAnswer(q,q.answer):S.formatValue(item.answer); const user=q?S.formatQuestionAnswer(q,item.userAnswer):S.formatValue(item.userAnswer); return `<article class="card"><div class="row"><span class="badge bad">오답</span><span class="badge">${esc(item.chapter)}</span><span class="badge">${esc(S.typeLabels[item.type]||item.type)}</span><span class="muted">${esc(new Date(item.time).toLocaleString('ko-KR'))}</span></div><h2>${esc(item.questionId)}</h2><p><b>문제:</b> ${esc(item.question)}</p><p><b>내 답:</b> ${esc(user)}</p><p><b>정답/모범답안:</b> ${esc(correct)}</p><p><b>해설:</b> ${esc(item.explanation)}</p><div class="row"><a class="btn" href="../cbt/network_final_mock.html?questionId=${encodeURIComponent(item.questionId)}">다시 풀기</a><button class="btn secondary" data-remove="${esc(item.questionId)}">오답노트에서 제거</button></div></article>`}).join(''); document.querySelectorAll('[data-remove]').forEach(btn=>btn.onclick=()=>{S.removeWrong(btn.dataset.remove); fill(); render();});}
+  $('chapterFilter').onchange=render; $('typeFilter').onchange=render; $('clearWrong').onclick=()=>{if(confirm('오답노트를 모두 비울까요? 학습기록은 유지됩니다.')){S.clearWrong(); fill(); render();}}; fill(); render();
+})();
+</script>
+</body>
+</html>
