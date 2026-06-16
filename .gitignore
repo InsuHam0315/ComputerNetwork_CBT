@@ -4,6 +4,14 @@
 # Local textbook PDFs must not be committed
 source/**/*.pdf
 source/textbook/중요 보안 문서.pdf
+source/textbook/*.pdf
+
+# Trusted local example JSON is source material, not deploy content
+source/예제json/
+예제json/
+
+# Raw extracted textbook data must not be committed
+source/extracted/*_raw.json
 
 # Raw exam screenshots are local style references only
 source/exam-style/*.png

@@ -5,50 +5,56 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 05",
     "category": "IEEE 802",
     "type": "fill-blank",
-    "question": "LAN/MAN 표준을 체계화한 IEEE 표준 계열에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. LAN/MAN의 데이터 링크와 매체 접근 표준 계열: ( ① )",
     "answer": [
       "IEEE 802"
     ],
-    "explanation": "IEEE 802은/는 LAN/MAN 표준을 체계화한 IEEE 표준 계열이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "IEEE 802은/는 LAN/MAN의 데이터 링크와 매체 접근 표준 계열이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q03",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "IEEE 802"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-002",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "MAC",
+    "category": "LLC",
     "type": "fill-blank",
-    "question": "매체 접근 제어와 물리 주소 기반 프레임 전달 기능에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. IEEE 802에서 상위 계층에 공통 논리 링크 서비스를 제공하는 부분: ( ① )",
     "answer": [
-      "MAC"
+      "LLC"
     ],
-    "explanation": "MAC은/는 매체 접근 제어와 물리 주소 기반 프레임 전달 기능이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "LLC은/는 IEEE 802에서 상위 계층에 공통 논리 링크 서비스를 제공하는 부분이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q01",
+    "confidence": "medium",
+    "choices": [],
     "blanks": [
-      "MAC"
-    ],
-    "choices": []
+      "LLC"
+    ]
   },
   {
     "id": "CN-FINAL-003",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "LLC",
+    "category": "MAC",
     "type": "fill-blank",
-    "question": "상위 계층에 논리 링크 서비스를 제공하는 하위 계층에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 공유 매체 접근과 물리 주소 기반 프레임 전달을 담당하는 부분: ( ① )",
     "answer": [
-      "LLC"
+      "MAC"
     ],
-    "explanation": "LLC은/는 상위 계층에 논리 링크 서비스를 제공하는 하위 계층이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "MAC은/는 공유 매체 접근과 물리 주소 기반 프레임 전달을 담당하는 부분이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q01",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "LLC"
-    ],
-    "choices": []
+      "MAC"
+    ]
   },
   {
     "id": "CN-FINAL-004",
@@ -56,78 +62,74 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 05",
     "category": "CSMA/CD",
     "type": "fill-blank",
-    "question": "송신 전 매체 감지와 충돌 감지를 사용하는 경쟁 기반 방식에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 전송 전 매체를 감지하고 전송 중 충돌을 탐지하는 공유 LAN 접근 방식: ( ① )",
     "answer": [
       "CSMA/CD"
     ],
-    "explanation": "CSMA/CD은/는 송신 전 매체 감지와 충돌 감지를 사용하는 경쟁 기반 방식이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "CSMA/CD은/는 전송 전 매체를 감지하고 전송 중 충돌을 탐지하는 공유 LAN 접근 방식이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "CSMA/CD"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-005",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "MAC 계층",
-    "type": "multi-select",
-    "question": "LAN과 MAC 계층에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "충돌 감지",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 동시 전송으로 신호가 겹쳤는지 송신 중 확인하는 절차: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "충돌 감지"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "LAN은 제한된 지역에서 비교적 고속 통신을 제공한다",
-      "MAC 주소는 프레임 전달 판단에 사용될 수 있다",
-      "MAC 계층은 TCP 연결 해제만 전담한다",
-      "이더넷은 대표적인 LAN 기술이다"
+    "explanation": "충돌 감지은/는 동시 전송으로 신호가 겹쳤는지 송신 중 확인하는 절차이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "충돌 감지"
     ]
   },
   {
     "id": "CN-FINAL-006",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "MAC 계층",
-    "type": "multi-select",
-    "question": "CSMA/CD에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "토큰 버스",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 공유 버스 환경에서 논리적 순서에 따라 토큰으로 전송 권한을 제어하는 방식: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "토큰 버스"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "송신 전 매체 사용 여부를 확인한다",
-      "충돌 후 백오프를 통해 재전송 시점을 분산할 수 있다",
-      "토큰을 가진 노드만 송신한다",
-      "공유 매체의 충돌 처리와 관련된다"
+    "explanation": "토큰 버스은/는 공유 버스 환경에서 논리적 순서에 따라 토큰으로 전송 권한을 제어하는 방식이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q05",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "토큰 버스"
     ]
   },
   {
     "id": "CN-FINAL-007",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "MAC 계층",
-    "type": "multi-select",
-    "question": "토큰 방식에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "토큰 링",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 링 구조에서 순환하는 토큰을 가진 장치만 전송하는 방식: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "토큰 링"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "토큰은 송신 권한을 의미한다",
-      "송신 순서를 제어해 충돌 가능성을 줄인다",
-      "경쟁 기반 충돌 감지만 핵심이다",
-      "토큰 분실 같은 관리 문제가 생길 수 있다"
+    "explanation": "토큰 링은/는 링 구조에서 순환하는 토큰을 가진 장치만 전송하는 방식이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q06",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "토큰 링"
     ]
   },
   {
@@ -136,148 +138,204 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 05",
     "category": "MAC 계층",
     "type": "multi-select",
-    "question": "이더넷 프레임과 관련 있는 것을 모두 고르시오.",
+    "question": "MAC 계층에 대한 설명으로 옳은 것을 모두 고르시오.",
     "answer": [
       1,
       2,
-      3
+      4
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "1, 2, 4번은 MAC 계층의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q01",
+    "confidence": "high",
     "choices": [
-      "수신지 MAC 주소",
-      "송신지 MAC 주소",
-      "오류 검출 정보",
-      "세션 계층 동기점"
+      "LAN 매체 특성에 맞는 접근 제어가 필요하다.",
+      "물리 주소 기반 프레임 전달과 관련된다.",
+      "응용 데이터의 문자 인코딩만 변환한다.",
+      "IEEE 802 계열에는 여러 MAC 방식이 포함된다."
     ]
   },
   {
     "id": "CN-FINAL-009",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "MAC 계층",
-    "type": "explain",
-    "question": "CSMA/CD의 기본 동작 과정을 설명하시오.",
-    "answer": "송신 전 매체를 감지하고 송신 중 충돌을 확인하며, 충돌 시 전송을 중단한 뒤 백오프 후 재전송한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "매체 감지",
-      "충돌 감지",
-      "백오프",
-      "재전송"
+    "category": "IEEE 802",
+    "type": "multi-select",
+    "question": "IEEE 802 계열에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 IEEE 802의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q03",
+    "confidence": "high",
+    "choices": [
+      "802.2는 LLC와 관련된다.",
+      "802.3은 CSMA/CD와 관련된다.",
+      "802.4는 토큰 링만을 의미한다.",
+      "802.5는 토큰 링과 관련된다."
     ]
   },
   {
     "id": "CN-FINAL-010",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "MAC 계층",
-    "type": "explain",
-    "question": "허브와 스위치 허브의 차이를 설명하시오.",
-    "answer": "허브는 신호를 단순히 여러 포트로 전달하고, 스위치는 MAC 주소를 학습해 필요한 포트로 선택 전달한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "허브",
-      "스위치",
-      "MAC 주소",
-      "선택 전달"
+    "category": "CSMA/CD",
+    "type": "multi-select",
+    "question": "CSMA/CD에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 CSMA/CD의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [
+      "전송 전 매체 사용 여부를 확인한다.",
+      "전송 중 충돌을 감지할 수 있다.",
+      "충돌한 프레임도 항상 정상 수신으로 처리한다.",
+      "충돌 후 재전송을 시도할 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-011",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "MAC 계층",
-    "type": "explain",
-    "question": "MAC과 LLC의 역할 차이를 설명하시오.",
-    "answer": "MAC은 매체 접근과 물리 주소 기반 전달을 담당하고 LLC는 상위 계층에 논리 링크 서비스를 제공한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "MAC",
-      "LLC",
-      "매체 접근",
-      "논리 링크"
+    "category": "토큰 방식",
+    "type": "multi-select",
+    "question": "토큰 버스/토큰 링에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 토큰 방식의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q05",
+    "confidence": "high",
+    "choices": [
+      "토큰은 전송 권한을 의미한다.",
+      "토큰 링에서는 토큰이 링을 순환한다.",
+      "토큰 방식은 모든 장치가 무조건 동시에 전송하게 한다.",
+      "토큰 방식은 충돌 가능성을 줄이는 데 유리하다."
     ]
   },
   {
     "id": "CN-FINAL-012",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "토큰",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 토큰 버스와 토큰 링에서 송신 권한을 나타내는 제어 정보",
-    "answer": "토큰",
-    "explanation": "정답은 토큰이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "토큰",
-      "토큰"
+    "category": "허브와 스위치 허브",
+    "type": "multi-select",
+    "question": "허브와 스위치 허브 비교로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 허브와 스위치 허브의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q11",
+    "confidence": "high",
+    "choices": [
+      "허브는 단순 반복 전달 성격이 강하다.",
+      "스위치 허브는 MAC 주소를 학습해 전달할 수 있다.",
+      "일반 허브는 목적지 포트만 정밀 선택한다.",
+      "스위치 허브는 불필요한 전파를 줄일 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-013",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "FCS",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 프레임 오류 검출을 위해 붙는 검사 정보",
-    "answer": "FCS",
-    "explanation": "정답은 FCS이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "FCS",
-      "fcs"
+    "category": "IEEE 802",
+    "type": "explain",
+    "question": "IEEE 802에 대하여 설명하시오.",
+    "answer": "IEEE 802은/는 LAN/MAN의 데이터 링크와 매체 접근 표준 계열이다.",
+    "explanation": [
+      "IEEE",
+      "802",
+      "LAN"
+    ],
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q03",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "IEEE",
+      "802",
+      "LAN"
     ]
   },
   {
     "id": "CN-FINAL-014",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "토큰 링",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 링 형태 논리 구조에서 토큰으로 송신 순서를 제어하는 방식",
-    "answer": "토큰 링",
-    "explanation": "정답은 토큰 링이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "토큰 링",
-      "토큰 링"
+    "category": "LLC",
+    "type": "explain",
+    "question": "LLC에 대하여 설명하시오.",
+    "answer": "LLC은/는 IEEE 802에서 상위 계층에 공통 논리 링크 서비스를 제공하는 부분이다.",
+    "explanation": [
+      "논리 링크",
+      "상위 계층",
+      "LLC"
+    ],
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q01",
+    "confidence": "medium",
+    "choices": [],
+    "keywords": [
+      "논리 링크",
+      "상위 계층",
+      "LLC"
     ]
   },
   {
     "id": "CN-FINAL-015",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "IEEE 802",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? LAN/MAN 표준을 체계화한 IEEE 표준 계열",
-    "answer": 1,
-    "explanation": "IEEE 802은/는 LAN/MAN 표준을 체계화한 IEEE 표준 계열이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "IEEE 802",
-      "MAC",
-      "LLC",
-      "CSMA/CD"
+    "category": "MAC",
+    "type": "explain",
+    "question": "MAC에 대하여 설명하시오.",
+    "answer": "MAC은/는 공유 매체 접근과 물리 주소 기반 프레임 전달을 담당하는 부분이다.",
+    "explanation": [
+      "매체 접근",
+      "물리 주소",
+      "프레임"
+    ],
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q01",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "매체 접근",
+      "물리 주소",
+      "프레임"
     ]
   },
   {
     "id": "CN-FINAL-016",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "MAC",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 매체 접근 제어와 물리 주소 기반 프레임 전달 기능",
-    "answer": 2,
-    "explanation": "MAC은/는 매체 접근 제어와 물리 주소 기반 프레임 전달 기능이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "IEEE 802",
-      "MAC",
-      "LLC",
+    "category": "충돌 감지",
+    "type": "explain",
+    "question": "충돌 감지에 대하여 설명하시오.",
+    "answer": "충돌 감지은/는 동시 전송으로 신호가 겹쳤는지 송신 중 확인하는 절차이다.",
+    "explanation": [
+      "충돌",
+      "감지",
+      "CSMA/CD"
+    ],
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "충돌",
+      "감지",
       "CSMA/CD"
     ]
   },
@@ -285,68 +343,72 @@ const NETWORK_FINAL_QUESTIONS = [
     "id": "CN-FINAL-017",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "LLC",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 상위 계층에 논리 링크 서비스를 제공하는 하위 계층",
-    "answer": 3,
-    "explanation": "LLC은/는 상위 계층에 논리 링크 서비스를 제공하는 하위 계층이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "IEEE 802",
-      "MAC",
-      "LLC",
-      "CSMA/CD"
+    "category": "Frame Status",
+    "type": "short-answer",
+    "question": "토큰 링 프레임의 상태 표시 필드는?",
+    "answer": "Frame Status",
+    "explanation": "정답은 Frame Status이다. 토큰 링 프레임에서 목적지의 인식·복사 상태를 표시하는 필드을/를 가리킨다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q14",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "Frame Status",
+      "프레임 상태",
+      "FS"
     ]
   },
   {
     "id": "CN-FINAL-018",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "CSMA/CD",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 송신 전 매체 감지와 충돌 감지를 사용하는 경쟁 기반 방식",
-    "answer": 4,
-    "explanation": "CSMA/CD은/는 송신 전 매체 감지와 충돌 감지를 사용하는 경쟁 기반 방식이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "IEEE 802",
-      "MAC",
-      "LLC",
-      "CSMA/CD"
+    "category": "허브",
+    "type": "short-answer",
+    "question": "수신 신호를 단순 반복 전달하는 장치는?",
+    "answer": "허브",
+    "explanation": "정답은 허브이다. 수신 신호를 여러 포트로 반복 전달하는 LAN 장치을/를 가리킨다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q10",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "허브"
     ]
   },
   {
     "id": "CN-FINAL-019",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "토큰",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 토큰 버스와 토큰 링에서 송신 권한을 나타내는 제어 정보",
-    "answer": 1,
-    "explanation": "토큰은/는 토큰 버스와 토큰 링에서 송신 권한을 나타내는 제어 정보이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "토큰",
-      "IEEE 802",
-      "MAC",
-      "LLC"
+    "category": "스위치 허브",
+    "type": "short-answer",
+    "question": "MAC 주소 기반으로 포트를 선택해 전달하는 장치는?",
+    "answer": "스위치 허브",
+    "explanation": "정답은 스위치 허브이다. MAC 주소 학습을 이용해 필요한 포트로 프레임을 선택 전달하는 장치을/를 가리킨다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q11",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "스위치 허브"
     ]
   },
   {
     "id": "CN-FINAL-020",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 05",
-    "category": "FCS",
+    "category": "토큰 링",
     "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 프레임 오류 검출을 위해 붙는 검사 정보",
-    "answer": 2,
-    "explanation": "FCS은/는 프레임 오류 검출을 위해 붙는 검사 정보이다.",
-    "source": "교재 Chapter 05 및 교수님 시험 스타일 기반 재구성",
+    "question": "다음 설명에 해당하는 것을 고르시오. 링 구조에서 순환하는 토큰을 가진 장치만 전송하는 방식",
+    "answer": 1,
+    "explanation": "토큰 링은/는 링 구조에서 순환하는 토큰을 가진 장치만 전송하는 방식이다.",
+    "source": "예제json Chapter 05 기반 재구성",
+    "sourceBasis": "source/예제json/5장_선다형.json#Q06",
+    "confidence": "high",
     "choices": [
-      "IEEE 802",
-      "FCS",
-      "MAC",
-      "LLC"
+      "토큰 링",
+      "ARP",
+      "TCP",
+      "HDLC"
     ]
   },
   {
@@ -355,16 +417,18 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 06",
     "category": "프레임",
     "type": "fill-blank",
-    "question": "데이터 링크 계층에서 사용하는 전송 단위에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 데이터 링크 계층에서 송수신되는 기본 데이터 단위: ( ① )",
     "answer": [
       "프레임"
     ],
-    "explanation": "프레임은/는 데이터 링크 계층에서 사용하는 전송 단위이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "프레임은/는 데이터 링크 계층에서 송수신되는 기본 데이터 단위이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "프레임"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-022",
@@ -372,16 +436,18 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 06",
     "category": "흐름 제어",
     "type": "fill-blank",
-    "question": "송신 속도가 수신 처리 능력을 넘지 않도록 조절하는 기능에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 수신 측 처리 능력에 맞추어 송신량이나 속도를 조절하는 기능: ( ① )",
     "answer": [
       "흐름 제어"
     ],
-    "explanation": "흐름 제어은/는 송신 속도가 수신 처리 능력을 넘지 않도록 조절하는 기능이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "흐름 제어은/는 수신 측 처리 능력에 맞추어 송신량이나 속도를 조절하는 기능이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "흐름 제어"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-023",
@@ -389,95 +455,93 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 06",
     "category": "오류 제어",
     "type": "fill-blank",
-    "question": "손상·분실 프레임을 검출하고 복구하는 기능에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 손상·분실·중복 프레임을 검출하고 재전송 등으로 복구하는 기능: ( ① )",
     "answer": [
       "오류 제어"
     ],
-    "explanation": "오류 제어은/는 손상·분실 프레임을 검출하고 복구하는 기능이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "오류 제어은/는 손상·분실·중복 프레임을 검출하고 재전송 등으로 복구하는 기능이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "오류 제어"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-024",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "슬라이딩 윈도우",
+    "category": "정지-대기",
     "type": "fill-blank",
-    "question": "여러 프레임을 연속 전송하고 ACK에 따라 범위를 움직이는 방식에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 프레임 하나를 보낸 뒤 응답을 기다리고 다음 프레임을 보내는 방식: ( ① )",
     "answer": [
-      "슬라이딩 윈도우"
+      "정지-대기"
     ],
-    "explanation": "슬라이딩 윈도우은/는 여러 프레임을 연속 전송하고 ACK에 따라 범위를 움직이는 방식이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "정지-대기은/는 프레임 하나를 보낸 뒤 응답을 기다리고 다음 프레임을 보내는 방식이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "슬라이딩 윈도우"
-    ],
-    "choices": []
+      "정지-대기"
+    ]
   },
   {
     "id": "CN-FINAL-025",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "데이터 링크 계층",
-    "type": "multi-select",
-    "question": "흐름 제어에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "슬라이딩 윈도우",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 윈도우 범위 안에서 여러 프레임을 연속 전송하는 제어 방식: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "슬라이딩 윈도우"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "수신 버퍼 초과를 막는 데 목적이 있다",
-      "송신자가 보낼 수 있는 양을 조절할 수 있다",
-      "라우팅 경로만 계산한다",
-      "정지-대기와 슬라이딩 윈도우로 설명할 수 있다"
+    "explanation": "슬라이딩 윈도우은/는 윈도우 범위 안에서 여러 프레임을 연속 전송하는 제어 방식이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q05",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "슬라이딩 윈도우"
     ]
   },
   {
     "id": "CN-FINAL-026",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "데이터 링크 계층",
-    "type": "multi-select",
-    "question": "오류 제어에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "Go-Back-N",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 오류가 난 프레임 이후를 되돌아가 다시 보내는 ARQ 방식: ( ① )",
     "answer": [
-      1,
-      2,
-      3
+      "Go-Back-N"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "오류 검출 코드가 활용될 수 있다",
-      "ACK 또는 NAK와 관련될 수 있다",
-      "손상 프레임 복구에 재전송을 사용할 수 있다",
-      "항상 응용 계층에서만 수행된다"
+    "explanation": "Go-Back-N은/는 오류가 난 프레임 이후를 되돌아가 다시 보내는 ARQ 방식이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "Go-Back-N"
     ]
   },
   {
     "id": "CN-FINAL-027",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "데이터 링크 계층",
-    "type": "multi-select",
-    "question": "슬라이딩 윈도우 방식의 특징으로 옳은 것을 모두 고르시오.",
+    "category": "선택적 재전송",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 오류가 확인된 프레임만 골라 다시 보내는 ARQ 방식: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "선택적 재전송"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "여러 프레임을 연속해서 보낼 수 있다",
-      "윈도우 크기가 전송 가능 범위를 제한한다",
-      "항상 연결을 새로 설정한다",
-      "ACK 수신에 따라 윈도우가 이동할 수 있다"
+    "explanation": "선택적 재전송은/는 오류가 확인된 프레임만 골라 다시 보내는 ARQ 방식이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "선택적 재전송"
     ]
   },
   {
@@ -486,516 +550,634 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 06",
     "category": "데이터 링크 계층",
     "type": "multi-select",
-    "question": "데이터 링크 계층 프로토콜에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "question": "데이터 링크 계층의 기능으로 옳은 것을 모두 고르시오.",
     "answer": [
       1,
       2,
-      3
+      4
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "1, 2, 4번은 데이터 링크 계층의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q01",
+    "confidence": "high",
     "choices": [
-      "HDLC는 링크 제어 프로토콜로 설명된다",
-      "LAP 계열은 링크 접근 절차와 관련된다",
-      "프레임 오류 복구는 재전송과 관련될 수 있다",
-      "DHCP가 프레임 경계를 직접 표시한다"
+      "인접 노드 사이에서 프레임을 전달한다.",
+      "물리 전송 오류를 검출하고 복구 절차를 수행할 수 있다.",
+      "전체 인터넷 경로를 계산하는 것이 주 기능이다.",
+      "흐름 제어를 통해 수신 측 부담을 줄일 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-029",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "데이터 링크 계층",
-    "type": "explain",
-    "question": "피기배킹에 대하여 설명하시오.",
-    "answer": "양방향 통신에서 데이터 프레임에 확인 응답 정보를 함께 실어 별도 ACK 전송을 줄이는 방식이다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "피기배킹",
-      "ACK",
-      "함께 전송",
-      "효율"
+    "category": "오류 제어",
+    "type": "multi-select",
+    "question": "오류 제어에 사용되는 요소로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 오류 제어의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [
+      "ACK/NAK 응답을 사용할 수 있다.",
+      "타임아웃을 이용해 분실을 추정할 수 있다.",
+      "응용 파일 확장자를 보고 오류를 복구한다.",
+      "순서 번호로 중복과 순서를 구분할 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-030",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "데이터 링크 계층",
-    "type": "explain",
-    "question": "Go-Back-N과 선택적 재전송을 비교하시오.",
-    "answer": "Go-Back-N은 오류 이후 구간을 다시 보낼 수 있고 선택적 재전송은 오류 프레임만 골라 재전송한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "Go-Back-N",
-      "선택적 재전송",
-      "오류 이후",
-      "오류 프레임"
+    "category": "슬라이딩 윈도우",
+    "type": "multi-select",
+    "question": "슬라이딩 윈도우 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 슬라이딩 윈도우의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q05",
+    "confidence": "high",
+    "choices": [
+      "송신 가능한 프레임 범위를 윈도우로 관리한다.",
+      "ACK에 따라 윈도우가 이동할 수 있다.",
+      "항상 한 번에 한 프레임만 보낸다.",
+      "정지-대기보다 회선 이용률을 높일 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-031",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "데이터 링크 계층",
-    "type": "explain",
-    "question": "데이터 링크 계층의 기능을 설명하시오.",
-    "answer": "인접 노드 사이에서 프레임 구성, 흐름 제어, 오류 제어, 링크 제어를 수행한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "프레임",
-      "흐름 제어",
-      "오류 제어",
-      "인접 노드"
+    "category": "Go-Back-N과 선택적 재전송",
+    "type": "multi-select",
+    "question": "Go-Back-N과 선택적 재전송 비교로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 Go-Back-N과 선택적 재전송의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [
+      "Go-Back-N은 오류 이후 프레임을 함께 다시 보낼 수 있다.",
+      "선택적 재전송은 오류 프레임만 다시 보내는 데 초점을 둔다.",
+      "선택적 재전송은 항상 버퍼 관리가 더 단순하다.",
+      "두 방식 모두 순서 번호 관리가 필요하다."
     ]
   },
   {
     "id": "CN-FINAL-032",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "정지-대기",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 한 프레임 전송 후 확인 응답을 기다리는 단순 방식",
-    "answer": "정지-대기",
-    "explanation": "정답은 정지-대기이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "정지-대기",
-      "정지-대기"
+    "category": "HDLC",
+    "type": "multi-select",
+    "question": "HDLC 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 HDLC의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q10",
+    "confidence": "high",
+    "choices": [
+      "비트 지향형 프로토콜이다.",
+      "정보/감독/비번호 프레임 구조를 사용할 수 있다.",
+      "외부 라우팅 전용 프로토콜이다.",
+      "주소·제어·검사 관련 필드를 포함할 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-033",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "Go-Back-N",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 오류 지점 이후의 프레임을 다시 보낼 수 있는 재전송 방식",
-    "answer": "Go-Back-N",
-    "explanation": "정답은 Go-Back-N이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "Go-Back-N",
-      "go-back-n"
+    "category": "프레임",
+    "type": "explain",
+    "question": "프레임에 대하여 설명하시오.",
+    "answer": "프레임은/는 데이터 링크 계층에서 송수신되는 기본 데이터 단위이다.",
+    "explanation": [
+      "데이터 링크",
+      "전송 단위",
+      "프레임"
+    ],
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "데이터 링크",
+      "전송 단위",
+      "프레임"
     ]
   },
   {
     "id": "CN-FINAL-034",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "선택적 재전송",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 오류가 난 프레임만 골라 재전송하는 방식",
-    "answer": "선택적 재전송",
-    "explanation": "정답은 선택적 재전송이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "선택적 재전송",
-      "선택적 재전송"
+    "category": "흐름 제어",
+    "type": "explain",
+    "question": "흐름 제어에 대하여 설명하시오.",
+    "answer": "흐름 제어은/는 수신 측 처리 능력에 맞추어 송신량이나 속도를 조절하는 기능이다.",
+    "explanation": [
+      "수신 버퍼",
+      "송신량",
+      "흐름 제어"
+    ],
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "수신 버퍼",
+      "송신량",
+      "흐름 제어"
     ]
   },
   {
     "id": "CN-FINAL-035",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "프레임",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 데이터 링크 계층에서 사용하는 전송 단위",
-    "answer": 1,
-    "explanation": "프레임은/는 데이터 링크 계층에서 사용하는 전송 단위이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "프레임",
-      "흐름 제어",
-      "오류 제어",
-      "슬라이딩 윈도우"
+    "category": "오류 제어",
+    "type": "explain",
+    "question": "오류 제어에 대하여 설명하시오.",
+    "answer": "오류 제어은/는 손상·분실·중복 프레임을 검출하고 재전송 등으로 복구하는 기능이다.",
+    "explanation": [
+      "오류",
+      "ACK",
+      "재전송"
+    ],
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "오류",
+      "ACK",
+      "재전송"
     ]
   },
   {
     "id": "CN-FINAL-036",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "흐름 제어",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 송신 속도가 수신 처리 능력을 넘지 않도록 조절하는 기능",
-    "answer": 2,
-    "explanation": "흐름 제어은/는 송신 속도가 수신 처리 능력을 넘지 않도록 조절하는 기능이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "프레임",
-      "흐름 제어",
-      "오류 제어",
-      "슬라이딩 윈도우"
+    "category": "슬라이딩 윈도우",
+    "type": "explain",
+    "question": "슬라이딩 윈도우에 대하여 설명하시오.",
+    "answer": "슬라이딩 윈도우은/는 윈도우 범위 안에서 여러 프레임을 연속 전송하는 제어 방식이다.",
+    "explanation": [
+      "윈도우",
+      "연속 전송",
+      "흐름 제어"
+    ],
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q05",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "윈도우",
+      "연속 전송",
+      "흐름 제어"
     ]
   },
   {
     "id": "CN-FINAL-037",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "오류 제어",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 손상·분실 프레임을 검출하고 복구하는 기능",
-    "answer": 3,
-    "explanation": "오류 제어은/는 손상·분실 프레임을 검출하고 복구하는 기능이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "프레임",
-      "흐름 제어",
-      "오류 제어",
-      "슬라이딩 윈도우"
+    "category": "피기배킹",
+    "type": "short-answer",
+    "question": "ACK를 데이터 프레임에 함께 싣는 방식은?",
+    "answer": "피기배킹",
+    "explanation": "정답은 피기배킹이다. 별도 ACK 대신 반대 방향 데이터 프레임에 확인 응답을 함께 싣는 방식을/를 가리킨다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q09",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "피기배킹"
     ]
   },
   {
     "id": "CN-FINAL-038",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "슬라이딩 윈도우",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 여러 프레임을 연속 전송하고 ACK에 따라 범위를 움직이는 방식",
-    "answer": 4,
-    "explanation": "슬라이딩 윈도우은/는 여러 프레임을 연속 전송하고 ACK에 따라 범위를 움직이는 방식이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "프레임",
-      "흐름 제어",
-      "오류 제어",
-      "슬라이딩 윈도우"
+    "category": "HDLC",
+    "type": "short-answer",
+    "question": "대표적인 비트 지향 데이터 링크 제어 프로토콜은?",
+    "answer": "HDLC",
+    "explanation": "정답은 HDLC이다. 비트 지향형 데이터 링크 제어 프로토콜을/를 가리킨다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q10",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "HDLC"
     ]
   },
   {
     "id": "CN-FINAL-039",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "정지-대기",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 한 프레임 전송 후 확인 응답을 기다리는 단순 방식",
-    "answer": 1,
-    "explanation": "정지-대기은/는 한 프레임 전송 후 확인 응답을 기다리는 단순 방식이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "정지-대기",
-      "프레임",
-      "흐름 제어",
-      "오류 제어"
+    "category": "NAK",
+    "type": "short-answer",
+    "question": "재전송 필요를 알리는 부정 응답은?",
+    "answer": "NAK",
+    "explanation": "정답은 NAK이다. 오류나 재전송 필요를 알리는 부정 응답을/를 가리킨다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "NAK",
+      "NACK",
+      "부정 응답"
     ]
   },
   {
     "id": "CN-FINAL-040",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 06",
-    "category": "Go-Back-N",
+    "category": "HDLC",
     "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 오류 지점 이후의 프레임을 다시 보낼 수 있는 재전송 방식",
-    "answer": 2,
-    "explanation": "Go-Back-N은/는 오류 지점 이후의 프레임을 다시 보낼 수 있는 재전송 방식이다.",
-    "source": "교재 Chapter 06 및 교수님 시험 스타일 기반 재구성",
+    "question": "다음 설명에 해당하는 것을 고르시오. 비트 지향형 데이터 링크 제어 프로토콜",
+    "answer": 1,
+    "explanation": "HDLC은/는 비트 지향형 데이터 링크 제어 프로토콜이다.",
+    "source": "예제json Chapter 06 기반 재구성",
+    "sourceBasis": "source/예제json/6장_선다형.json#Q10",
+    "confidence": "high",
     "choices": [
-      "프레임",
-      "Go-Back-N",
-      "흐름 제어",
-      "오류 제어"
+      "HDLC",
+      "ARP",
+      "TCP",
+      "표현 계층"
     ]
   },
   {
     "id": "CN-FINAL-041",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "네트워크 계층",
+    "category": "라우팅",
     "type": "fill-blank",
-    "question": "여러 네트워크를 거쳐 목적지까지 패킷 전달과 경로 선택을 담당하는 계층에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 목적지까지 패킷을 전달할 경로를 선택하는 네트워크 계층 기능: ( ① )",
     "answer": [
-      "네트워크 계층"
+      "라우팅"
     ],
-    "explanation": "네트워크 계층은/는 여러 네트워크를 거쳐 목적지까지 패킷 전달과 경로 선택을 담당하는 계층이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "라우팅은/는 목적지까지 패킷을 전달할 경로를 선택하는 네트워크 계층 기능이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q01",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "네트워크 계층"
-    ],
-    "choices": []
+      "라우팅"
+    ]
   },
   {
     "id": "CN-FINAL-042",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "라우팅",
+    "category": "연결형 서비스",
     "type": "fill-blank",
-    "question": "목적지까지의 전달 경로를 선택하는 기능에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 전송 전에 논리적 연결이나 경로를 설정하고 데이터를 보내는 서비스: ( ① )",
     "answer": [
-      "라우팅"
+      "연결형 서비스"
     ],
-    "explanation": "라우팅은/는 목적지까지의 전달 경로를 선택하는 기능이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "연결형 서비스은/는 전송 전에 논리적 연결이나 경로를 설정하고 데이터를 보내는 서비스이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "라우팅"
-    ],
-    "choices": []
+      "연결형 서비스"
+    ]
   },
   {
     "id": "CN-FINAL-043",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "혼잡 제어",
+    "category": "비연결형 서비스",
     "type": "fill-blank",
-    "question": "네트워크 과부하를 완화하기 위해 전송량을 조절하는 기능에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 패킷마다 독립적으로 처리되어 서로 다른 경로로 전달될 수 있는 서비스: ( ① )",
     "answer": [
-      "혼잡 제어"
+      "비연결형 서비스"
     ],
-    "explanation": "혼잡 제어은/는 네트워크 과부하를 완화하기 위해 전송량을 조절하는 기능이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "비연결형 서비스은/는 패킷마다 독립적으로 처리되어 서로 다른 경로로 전달될 수 있는 서비스이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "혼잡 제어"
-    ],
-    "choices": []
+      "비연결형 서비스"
+    ]
   },
   {
     "id": "CN-FINAL-044",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "거리 벡터",
+    "category": "혼잡 제어",
     "type": "fill-blank",
-    "question": "이웃과 목적지까지의 거리 정보를 교환하는 라우팅 방식에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 네트워크 내부 패킷 과다로 생기는 성능 저하를 예방하거나 완화하는 기능: ( ① )",
     "answer": [
-      "거리 벡터"
+      "혼잡 제어"
     ],
-    "explanation": "거리 벡터은/는 이웃과 목적지까지의 거리 정보를 교환하는 라우팅 방식이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "혼잡 제어은/는 네트워크 내부 패킷 과다로 생기는 성능 저하를 예방하거나 완화하는 기능이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "거리 벡터"
-    ],
-    "choices": []
+      "혼잡 제어"
+    ]
   },
   {
     "id": "CN-FINAL-045",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "IP 프로토콜",
-    "type": "multi-select",
-    "question": "라우팅에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "ECN",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 혼잡 징후를 패킷 표시로 알려 송신 측 조절을 유도하는 기능: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "ECN"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "목적지까지 경로를 결정한다",
-      "정적 또는 동적 방식으로 구성될 수 있다",
-      "프레임의 FCS만 계산한다",
-      "라우팅 테이블을 사용할 수 있다"
+    "explanation": "ECN은/는 혼잡 징후를 패킷 표시로 알려 송신 측 조절을 유도하는 기능이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q09",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "ECN"
     ]
   },
   {
     "id": "CN-FINAL-046",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "IP 프로토콜",
-    "type": "multi-select",
-    "question": "거리 벡터 라우팅의 특징으로 옳은 것을 모두 고르시오.",
+    "category": "패킷 분할",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 큰 IP 데이터그램을 전송 가능한 작은 조각으로 나누는 과정: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "패킷 분할"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "이웃 라우터와 거리 정보를 교환한다",
-      "목적지까지의 비용 정보를 활용한다",
-      "항상 전체 링크 상태 DB를 동일하게 유지해야만 한다",
-      "RIP 설명과 연결될 수 있다"
+    "explanation": "패킷 분할은/는 큰 IP 데이터그램을 전송 가능한 작은 조각으로 나누는 과정이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q14",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "패킷 분할"
     ]
   },
   {
     "id": "CN-FINAL-047",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "IP 프로토콜",
-    "type": "multi-select",
-    "question": "링크 상태 라우팅의 특징으로 옳은 것을 모두 고르시오.",
+    "category": "TTL",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 패킷이 라우터를 지날 때 감소하여 무한 순환을 막는 IP 헤더 필드: ( ① )",
     "answer": [
-      1,
-      2,
-      3
+      "TTL"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "링크 상태 정보를 광고한다",
-      "토폴로지 정보를 바탕으로 경로를 계산한다",
-      "최단 경로 계산과 연결된다",
-      "MAC 주소 변환만 수행한다"
+    "explanation": "TTL은/는 패킷이 라우터를 지날 때 감소하여 무한 순환을 막는 IP 헤더 필드이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q15",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "TTL"
     ]
   },
   {
     "id": "CN-FINAL-048",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "IP 프로토콜",
+    "category": "네트워크 계층",
     "type": "multi-select",
-    "question": "DHCP에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "question": "네트워크 계층 기능으로 옳은 것을 모두 고르시오.",
     "answer": [
       1,
       2,
       4
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "1, 2, 4번은 네트워크 계층의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q01",
+    "confidence": "high",
     "choices": [
-      "IP 주소 설정 정보를 자동 제공할 수 있다",
-      "게이트웨이와 DNS 정보 제공과 관련될 수 있다",
-      "TCP 연결 해제 전용이다",
-      "수동 설정 부담을 줄일 수 있다"
+      "라우팅 테이블로 전달 경로를 선택한다.",
+      "큰 패킷을 전송 가능한 크기로 나눌 수 있다.",
+      "문자 인코딩 변환만 담당한다.",
+      "혼잡 상태를 제어하는 기능을 가질 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-049",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "IP 프로토콜",
-    "type": "explain",
-    "question": "거리 벡터와 링크 상태 라우팅을 비교하시오.",
-    "answer": "거리 벡터는 이웃과 거리 정보를 교환하고 링크 상태는 링크 정보를 모아 토폴로지 기반으로 경로를 계산한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "거리 벡터",
-      "링크 상태",
-      "이웃",
-      "토폴로지"
+    "category": "연결형/비연결형 서비스",
+    "type": "multi-select",
+    "question": "연결형과 비연결형 서비스 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 연결형/비연결형 서비스의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [
+      "연결형은 전송 전에 연결 설정이 필요할 수 있다.",
+      "비연결형은 패킷별 독립 전달이 가능하다.",
+      "비연결형은 항상 순서와 도착을 보장한다.",
+      "IP는 비연결형 서비스 성격으로 설명된다."
     ]
   },
   {
     "id": "CN-FINAL-050",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "IP 프로토콜",
-    "type": "explain",
-    "question": "IP 패킷 분할이 필요한 이유를 설명하시오.",
-    "answer": "패킷이 링크의 MTU보다 클 때 조각으로 나누며 식별자, 오프셋, 플래그로 조각을 구분한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "MTU",
-      "분할",
-      "식별자",
-      "오프셋"
+    "category": "라우팅",
+    "type": "multi-select",
+    "question": "라우팅 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 라우팅의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q03",
+    "confidence": "high",
+    "choices": [
+      "라우터는 다음 홉을 결정한다.",
+      "정적 라우팅은 미리 정한 경로 정보를 사용할 수 있다.",
+      "라우팅은 프레임 FCS만 계산하는 기능이다.",
+      "동적 라우팅은 네트워크 변화에 따라 경로를 갱신할 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-051",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "IP 프로토콜",
-    "type": "explain",
-    "question": "DHCP가 제공하는 기능을 설명하시오.",
-    "answer": "DHCP는 호스트가 IP 주소, 게이트웨이, DNS 같은 네트워크 설정을 자동으로 받도록 돕는다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "DHCP",
-      "IP 주소",
-      "자동",
-      "게이트웨이"
+    "category": "혼잡 제어",
+    "type": "multi-select",
+    "question": "혼잡 제어 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 혼잡 제어의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q09",
+    "confidence": "high",
+    "choices": [
+      "네트워크 내부의 패킷 과다 문제를 다룬다.",
+      "혼잡을 알리거나 회피하는 기법이 있다.",
+      "수신 문자 표현 방식을 통일하는 기능이다.",
+      "ECN은 혼잡 징후 표시와 관련된다."
     ]
   },
   {
     "id": "CN-FINAL-052",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "링크 상태",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 링크 정보를 수집해 토폴로지 기반으로 경로를 계산하는 방식",
-    "answer": "링크 상태",
-    "explanation": "정답은 링크 상태이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "링크 상태",
-      "링크 상태"
+    "category": "IP 헤더와 분할",
+    "type": "multi-select",
+    "question": "IP 헤더와 분할 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 IP 헤더와 분할의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q14",
+    "confidence": "high",
+    "choices": [
+      "TTL은 라우터 경유 시 감소할 수 있다.",
+      "분할 조각은 식별자와 오프셋 정보로 재조립될 수 있다.",
+      "분할은 항상 응용 계층에서만 처리된다.",
+      "목적지에서 조각을 다시 모을 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-053",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "외부 라우팅",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 자율 시스템 사이의 경로 선택과 관련된 라우팅",
-    "answer": "외부 라우팅",
-    "explanation": "정답은 외부 라우팅이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "외부 라우팅",
-      "외부 라우팅"
+    "category": "라우팅",
+    "type": "explain",
+    "question": "라우팅에 대하여 설명하시오.",
+    "answer": "라우팅은/는 목적지까지 패킷을 전달할 경로를 선택하는 네트워크 계층 기능이다.",
+    "explanation": [
+      "경로 선택",
+      "라우팅",
+      "라우터"
+    ],
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q01",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "경로 선택",
+      "라우팅",
+      "라우터"
     ]
   },
   {
     "id": "CN-FINAL-054",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "IP 헤더",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: IP 패킷 전달과 분할에 필요한 주소·제어 정보를 담는 부분",
-    "answer": "IP 헤더",
-    "explanation": "정답은 IP 헤더이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "IP 헤더",
-      "ip 헤더"
+    "category": "연결형 서비스",
+    "type": "explain",
+    "question": "연결형 서비스에 대하여 설명하시오.",
+    "answer": "연결형 서비스은/는 전송 전에 논리적 연결이나 경로를 설정하고 데이터를 보내는 서비스이다.",
+    "explanation": [
+      "연결 설정",
+      "논리 경로",
+      "연결형"
+    ],
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "연결 설정",
+      "논리 경로",
+      "연결형"
     ]
   },
   {
     "id": "CN-FINAL-055",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "네트워크 계층",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 여러 네트워크를 거쳐 목적지까지 패킷 전달과 경로 선택을 담당하는 계층",
-    "answer": 1,
-    "explanation": "네트워크 계층은/는 여러 네트워크를 거쳐 목적지까지 패킷 전달과 경로 선택을 담당하는 계층이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "네트워크 계층",
-      "라우팅",
-      "혼잡 제어",
-      "거리 벡터"
+    "category": "비연결형 서비스",
+    "type": "explain",
+    "question": "비연결형 서비스에 대하여 설명하시오.",
+    "answer": "비연결형 서비스은/는 패킷마다 독립적으로 처리되어 서로 다른 경로로 전달될 수 있는 서비스이다.",
+    "explanation": [
+      "독립 전달",
+      "데이터그램",
+      "비연결형"
+    ],
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "독립 전달",
+      "데이터그램",
+      "비연결형"
     ]
   },
   {
     "id": "CN-FINAL-056",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "라우팅",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 목적지까지의 전달 경로를 선택하는 기능",
-    "answer": 2,
-    "explanation": "라우팅은/는 목적지까지의 전달 경로를 선택하는 기능이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "네트워크 계층",
-      "라우팅",
-      "혼잡 제어",
-      "거리 벡터"
+    "category": "ECN",
+    "type": "explain",
+    "question": "ECN에 대하여 설명하시오.",
+    "answer": "ECN은/는 혼잡 징후를 패킷 표시로 알려 송신 측 조절을 유도하는 기능이다.",
+    "explanation": [
+      "혼잡",
+      "표시",
+      "ECN"
+    ],
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q09",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "혼잡",
+      "표시",
+      "ECN"
     ]
   },
   {
     "id": "CN-FINAL-057",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "혼잡 제어",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 네트워크 과부하를 완화하기 위해 전송량을 조절하는 기능",
-    "answer": 3,
-    "explanation": "혼잡 제어은/는 네트워크 과부하를 완화하기 위해 전송량을 조절하는 기능이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "네트워크 계층",
-      "라우팅",
-      "혼잡 제어",
-      "거리 벡터"
+    "category": "DHCP",
+    "type": "short-answer",
+    "question": "IP 주소를 자동 배정하는 프로토콜은?",
+    "answer": "DHCP",
+    "explanation": "정답은 DHCP이다. 호스트에 IP 주소와 네트워크 설정을 자동 배정하는 프로토콜을/를 가리킨다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q16",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "DHCP"
     ]
   },
   {
@@ -1003,16 +1185,17 @@ const NETWORK_FINAL_QUESTIONS = [
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
     "category": "거리 벡터",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 이웃과 목적지까지의 거리 정보를 교환하는 라우팅 방식",
-    "answer": 4,
-    "explanation": "거리 벡터은/는 이웃과 목적지까지의 거리 정보를 교환하는 라우팅 방식이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "네트워크 계층",
-      "라우팅",
-      "혼잡 제어",
-      "거리 벡터"
+    "type": "short-answer",
+    "question": "이웃 라우터와 거리 정보를 교환하는 방식은?",
+    "answer": "거리 벡터",
+    "explanation": "정답은 거리 벡터이다. 이웃과 거리 정보를 교환하며 경로를 갱신하는 라우팅 방식을/를 가리킨다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q10",
+    "confidence": "medium",
+    "choices": [],
+    "acceptedAnswers": [
+      "거리 벡터",
+      "Distance Vector"
     ]
   },
   {
@@ -1020,85 +1203,94 @@ const NETWORK_FINAL_QUESTIONS = [
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
     "category": "링크 상태",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 링크 정보를 수집해 토폴로지 기반으로 경로를 계산하는 방식",
-    "answer": 1,
-    "explanation": "링크 상태은/는 링크 정보를 수집해 토폴로지 기반으로 경로를 계산하는 방식이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
+    "type": "short-answer",
+    "question": "링크 상태 정보를 이용하는 라우팅 방식은?",
+    "answer": "링크 상태",
+    "explanation": "정답은 링크 상태이다. 링크 연결 상태 정보를 바탕으로 전체 경로를 계산하는 라우팅 방식을/를 가리킨다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q10",
+    "confidence": "medium",
+    "choices": [],
+    "acceptedAnswers": [
       "링크 상태",
-      "네트워크 계층",
-      "라우팅",
-      "혼잡 제어"
+      "Link State"
     ]
   },
   {
     "id": "CN-FINAL-060",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 07",
-    "category": "외부 라우팅",
+    "category": "라우팅",
     "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 자율 시스템 사이의 경로 선택과 관련된 라우팅",
-    "answer": 2,
-    "explanation": "외부 라우팅은/는 자율 시스템 사이의 경로 선택과 관련된 라우팅이다.",
-    "source": "교재 Chapter 07 및 교수님 시험 스타일 기반 재구성",
+    "question": "다음 설명에 해당하는 것을 고르시오. 목적지까지 패킷을 전달할 경로를 선택하는 네트워크 계층 기능",
+    "answer": 1,
+    "explanation": "라우팅은/는 목적지까지 패킷을 전달할 경로를 선택하는 네트워크 계층 기능이다.",
+    "source": "예제json Chapter 07 기반 재구성",
+    "sourceBasis": "source/예제json/7장_선다형.json#Q01",
+    "confidence": "high",
     "choices": [
-      "네트워크 계층",
-      "외부 라우팅",
       "라우팅",
-      "혼잡 제어"
+      "ARP",
+      "TCP",
+      "HDLC"
     ]
   },
   {
     "id": "CN-FINAL-061",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "IPv6",
+    "category": "IPv6 주소",
     "type": "fill-blank",
-    "question": "128비트 주소와 확장 헤더 구조를 사용하는 IP 버전에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. IPv6 주소의 비트 길이: ( ① )",
     "answer": [
-      "IPv6"
+      "128"
     ],
-    "explanation": "IPv6은/는 128비트 주소와 확장 헤더 구조를 사용하는 IP 버전이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "128은/는 IPv6 주소의 비트 길이이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q01",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "IPv6"
-    ],
-    "choices": []
+      "128"
+    ]
   },
   {
     "id": "CN-FINAL-062",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "IPv6 헤더",
+    "category": "확장 헤더",
     "type": "fill-blank",
-    "question": "기본 헤더와 확장 헤더로 기능을 분리할 수 있는 구조에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. IPv6 기본 헤더 뒤에 선택 기능을 추가하기 위해 이어지는 헤더: ( ① )",
     "answer": [
-      "IPv6 헤더"
+      "확장 헤더"
     ],
-    "explanation": "IPv6 헤더은/는 기본 헤더와 확장 헤더로 기능을 분리할 수 있는 구조이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "확장 헤더은/는 IPv6 기본 헤더 뒤에 선택 기능을 추가하기 위해 이어지는 헤더이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "IPv6 헤더"
-    ],
-    "choices": []
+      "확장 헤더"
+    ]
   },
   {
     "id": "CN-FINAL-063",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "터널링",
+    "category": "Flow Label",
     "type": "fill-blank",
-    "question": "한 프로토콜 패킷을 다른 패킷 안에 캡슐화해 전달하는 기법에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. IPv6에서 특정 데이터 흐름을 식별해 특별 처리를 돕는 필드: ( ① )",
     "answer": [
-      "터널링"
+      "Flow Label"
     ],
-    "explanation": "터널링은/는 한 프로토콜 패킷을 다른 패킷 안에 캡슐화해 전달하는 기법이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "Flow Label은/는 IPv6에서 특정 데이터 흐름을 식별해 특별 처리를 돕는 필드이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q03",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "터널링"
-    ],
-    "choices": []
+      "Flow Label"
+    ]
   },
   {
     "id": "CN-FINAL-064",
@@ -1106,296 +1298,354 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 08",
     "category": "ARP",
     "type": "fill-blank",
-    "question": "IP 주소를 이용해 MAC 주소를 찾는 프로토콜에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. IP 주소를 이용해 대응되는 MAC 주소를 찾는 프로토콜: ( ① )",
     "answer": [
       "ARP"
     ],
-    "explanation": "ARP은/는 IP 주소를 이용해 MAC 주소를 찾는 프로토콜이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "ARP은/는 IP 주소를 이용해 대응되는 MAC 주소를 찾는 프로토콜이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "ARP"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-065",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "네트워크 계층",
-    "type": "multi-select",
-    "question": "IPv6에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "RARP",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. MAC 주소를 이용해 IP 주소를 얻는 프로토콜: ( ① )",
     "answer": [
-      1,
-      2,
-      3
+      "RARP"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "주소 길이가 128비트이다",
-      "확장 헤더 구조를 사용할 수 있다",
-      "IPv4보다 주소 공간이 크다",
-      "항상 ARP와 동일한 방식만 사용해야 한다"
+    "explanation": "RARP은/는 MAC 주소를 이용해 IP 주소를 얻는 프로토콜이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q05",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "RARP"
     ]
   },
   {
     "id": "CN-FINAL-066",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "네트워크 계층",
-    "type": "multi-select",
-    "question": "ARP에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "ICMP",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. IP 전송 과정의 오류 보고와 제어 메시지를 담당하는 프로토콜: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "ICMP"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "IP 주소에 대응하는 MAC 주소를 찾는다",
-      "요청은 브로드캐스트 성격으로 동작할 수 있다",
-      "TCP 순서 번호를 계산한다",
-      "동일 링크 내 실제 전달 준비와 관련된다"
+    "explanation": "ICMP은/는 IP 전송 과정의 오류 보고와 제어 메시지를 담당하는 프로토콜이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q06",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "ICMP"
     ]
   },
   {
     "id": "CN-FINAL-067",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "네트워크 계층",
-    "type": "multi-select",
-    "question": "ICMP에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "IGMP",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. IP 멀티캐스트 그룹 가입과 멤버십 관리를 위한 프로토콜: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "IGMP"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "오류 보고 메시지와 관련된다",
-      "Echo 요청/응답 같은 진단 기능과 관련된다",
-      "응용 계층 파일 압축 형식이다",
-      "IP 전달을 보조하는 제어 메시지 성격을 가진다"
+    "explanation": "IGMP은/는 IP 멀티캐스트 그룹 가입과 멤버십 관리를 위한 프로토콜이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q09",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "IGMP"
     ]
   },
   {
     "id": "CN-FINAL-068",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "네트워크 계층",
+    "category": "IPv6",
     "type": "multi-select",
-    "question": "IGMP에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "question": "IPv6 설명으로 옳은 것을 모두 고르시오.",
     "answer": [
       1,
-      2
+      2,
+      4
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "1, 2, 4번은 IPv6의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q01",
+    "confidence": "high",
     "choices": [
-      "멀티캐스트 그룹 관리와 관련된다",
-      "그룹 가입 정보를 파악하는 데 활용될 수 있다",
-      "ARP 캐시 삭제만 수행한다",
-      "유니캐스트 TCP 연결 설정만 담당한다"
+      "주소 공간이 128비트로 확장되었다.",
+      "기본 헤더 단순화와 확장 헤더 활용이 특징이다.",
+      "IPv6는 항상 ARP와 같은 헤더 형식을 사용한다.",
+      "Flow Label로 흐름 단위 처리를 지원할 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-069",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "네트워크 계층",
-    "type": "explain",
-    "question": "HELLO/ECHO 패킷의 성격을 설명하시오.",
-    "answer": "상대 장비의 존재, 도달 가능성, 응답 여부를 확인하기 위해 사용하는 제어 메시지 성격의 패킷이다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "도달 가능성",
-      "응답",
-      "제어 메시지",
-      "확인"
+    "category": "IPv6 헤더",
+    "type": "multi-select",
+    "question": "IPv6 헤더 필드 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 IPv6 헤더의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q03",
+    "confidence": "high",
+    "choices": [
+      "Next Header는 다음 헤더 유형을 알려준다.",
+      "Hop Limit은 경유할 때 감소할 수 있다.",
+      "Payload Length는 항상 기본 헤더까지 포함한 크기만 뜻한다.",
+      "Fragment Header는 분할 정보와 관련될 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-070",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "네트워크 계층",
-    "type": "explain",
-    "question": "ARP와 RARP를 비교하시오.",
-    "answer": "ARP는 IP 주소로 MAC 주소를 찾고 RARP는 MAC 주소로 IP 주소를 찾는 방향의 차이가 있다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "ARP",
-      "RARP",
-      "IP 주소",
-      "MAC 주소"
+    "category": "ARP와 RARP",
+    "type": "multi-select",
+    "question": "ARP/RARP 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 ARP와 RARP의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [
+      "ARP는 IP 주소로 MAC 주소를 찾는다.",
+      "RARP는 MAC 주소로 IP 주소를 얻는다.",
+      "ARP는 TCP 연결 해제 전용 절차이다.",
+      "둘 다 주소 대응 관계를 해결하는 프로토콜이다."
     ]
   },
   {
     "id": "CN-FINAL-071",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "네트워크 계층",
-    "type": "explain",
-    "question": "터널링이 필요한 상황을 설명하시오.",
-    "answer": "서로 다른 네트워크나 IP 버전 구간을 통과하기 위해 원래 패킷을 다른 패킷 안에 캡슐화해 전달할 때 사용한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "터널링",
-      "캡슐화",
-      "IPv4",
-      "IPv6"
+    "category": "ICMP",
+    "type": "multi-select",
+    "question": "ICMP 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 ICMP의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [
+      "IP 처리 오류를 보고할 수 있다.",
+      "Echo 요청/응답으로 도달 가능성을 확인할 수 있다.",
+      "응용 파일 압축 형식을 정의한다.",
+      "IP를 보조하는 제어 메시지 성격을 가진다."
     ]
   },
   {
     "id": "CN-FINAL-072",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "RARP",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: MAC 주소를 이용해 IP 주소를 찾는 프로토콜",
-    "answer": "RARP",
-    "explanation": "정답은 RARP이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "RARP",
-      "rarp"
+    "category": "IGMP",
+    "type": "multi-select",
+    "question": "IGMP 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 IGMP의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q09",
+    "confidence": "high",
+    "choices": [
+      "멀티캐스트 그룹 가입 정보를 관리한다.",
+      "호스트와 멀티캐스트 라우터 사이에서 쓰일 수 있다.",
+      "TCP 순서 번호를 재계산한다.",
+      "그룹 멤버십 질의와 보고가 중요하다."
     ]
   },
   {
     "id": "CN-FINAL-073",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "ICMP",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: IP 오류 보고와 진단성 제어 메시지를 제공하는 프로토콜",
-    "answer": "ICMP",
-    "explanation": "정답은 ICMP이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "ICMP",
-      "icmp"
+    "category": "IPv6 주소",
+    "type": "explain",
+    "question": "128에 대하여 설명하시오.",
+    "answer": "128은/는 IPv6 주소의 비트 길이이다.",
+    "explanation": [
+      "IPv6",
+      "128",
+      "주소"
+    ],
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q01",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "IPv6",
+      "128",
+      "주소"
     ]
   },
   {
     "id": "CN-FINAL-074",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "IGMP",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 멀티캐스트 그룹 관리를 위한 프로토콜",
-    "answer": "IGMP",
-    "explanation": "정답은 IGMP이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "IGMP",
-      "igmp"
+    "category": "확장 헤더",
+    "type": "explain",
+    "question": "확장 헤더에 대하여 설명하시오.",
+    "answer": "확장 헤더은/는 IPv6 기본 헤더 뒤에 선택 기능을 추가하기 위해 이어지는 헤더이다.",
+    "explanation": [
+      "확장 헤더",
+      "기본 헤더",
+      "IPv6"
+    ],
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "확장 헤더",
+      "기본 헤더",
+      "IPv6"
     ]
   },
   {
     "id": "CN-FINAL-075",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "IPv6",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 128비트 주소와 확장 헤더 구조를 사용하는 IP 버전",
-    "answer": 1,
-    "explanation": "IPv6은/는 128비트 주소와 확장 헤더 구조를 사용하는 IP 버전이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "IPv6",
-      "IPv6 헤더",
-      "터널링",
-      "ARP"
+    "category": "Flow Label",
+    "type": "explain",
+    "question": "Flow Label에 대하여 설명하시오.",
+    "answer": "Flow Label은/는 IPv6에서 특정 데이터 흐름을 식별해 특별 처리를 돕는 필드이다.",
+    "explanation": [
+      "Flow Label",
+      "흐름",
+      "IPv6"
+    ],
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q03",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "Flow Label",
+      "흐름",
+      "IPv6"
     ]
   },
   {
     "id": "CN-FINAL-076",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "IPv6 헤더",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 기본 헤더와 확장 헤더로 기능을 분리할 수 있는 구조",
-    "answer": 2,
-    "explanation": "IPv6 헤더은/는 기본 헤더와 확장 헤더로 기능을 분리할 수 있는 구조이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "IPv6",
-      "IPv6 헤더",
-      "터널링",
-      "ARP"
+    "category": "RARP",
+    "type": "explain",
+    "question": "RARP에 대하여 설명하시오.",
+    "answer": "RARP은/는 MAC 주소를 이용해 IP 주소를 얻는 프로토콜이다.",
+    "explanation": [
+      "MAC 주소",
+      "IP 주소",
+      "RARP"
+    ],
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q05",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "MAC 주소",
+      "IP 주소",
+      "RARP"
     ]
   },
   {
     "id": "CN-FINAL-077",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "터널링",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 한 프로토콜 패킷을 다른 패킷 안에 캡슐화해 전달하는 기법",
-    "answer": 3,
-    "explanation": "터널링은/는 한 프로토콜 패킷을 다른 패킷 안에 캡슐화해 전달하는 기법이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "IPv6",
-      "IPv6 헤더",
-      "터널링",
-      "ARP"
+    "category": "Hop Limit",
+    "type": "short-answer",
+    "question": "IPv6에서 TTL과 비슷한 수명 제한 필드는?",
+    "answer": "Hop Limit",
+    "explanation": "정답은 Hop Limit이다. IPv6에서 패킷 경유 한계를 나타내는 필드을/를 가리킨다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q03",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "Hop Limit",
+      "홉 제한"
     ]
   },
   {
     "id": "CN-FINAL-078",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "ARP",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? IP 주소를 이용해 MAC 주소를 찾는 프로토콜",
-    "answer": 4,
-    "explanation": "ARP은/는 IP 주소를 이용해 MAC 주소를 찾는 프로토콜이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "IPv6",
-      "IPv6 헤더",
-      "터널링",
-      "ARP"
+    "category": "Echo 메시지",
+    "type": "short-answer",
+    "question": "도달 가능성 확인에 쓰이는 ICMP 메시지는?",
+    "answer": "Echo 메시지",
+    "explanation": "정답은 Echo 메시지이다. 상대 호스트의 도달 가능성과 응답 여부 확인에 쓰이는 ICMP 메시지을/를 가리킨다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "Echo",
+      "Echo 메시지",
+      "ICMP Echo"
     ]
   },
   {
     "id": "CN-FINAL-079",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "RARP",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? MAC 주소를 이용해 IP 주소를 찾는 프로토콜",
-    "answer": 1,
-    "explanation": "RARP은/는 MAC 주소를 이용해 IP 주소를 찾는 프로토콜이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "RARP",
-      "IPv6",
-      "IPv6 헤더",
-      "터널링"
+    "category": "멀티캐스트",
+    "type": "short-answer",
+    "question": "특정 그룹 다수에게 보내는 전송 방식은?",
+    "answer": "멀티캐스트",
+    "explanation": "정답은 멀티캐스트이다. 하나의 송신자가 특정 그룹의 여러 수신자에게 데이터를 보내는 방식을/를 가리킨다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q09",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "멀티캐스트"
     ]
   },
   {
     "id": "CN-FINAL-080",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 08",
-    "category": "ICMP",
+    "category": "IPv6 주소",
     "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? IP 오류 보고와 진단성 제어 메시지를 제공하는 프로토콜",
-    "answer": 2,
-    "explanation": "ICMP은/는 IP 오류 보고와 진단성 제어 메시지를 제공하는 프로토콜이다.",
-    "source": "교재 Chapter 08 및 교수님 시험 스타일 기반 재구성",
+    "question": "다음 설명에 해당하는 것을 고르시오. IPv6 주소의 비트 길이",
+    "answer": 1,
+    "explanation": "128은/는 IPv6 주소의 비트 길이이다.",
+    "source": "예제json Chapter 08 기반 재구성",
+    "sourceBasis": "source/예제json/8장_선다형.json#Q01",
+    "confidence": "high",
     "choices": [
-      "IPv6",
-      "ICMP",
-      "IPv6 헤더",
-      "터널링"
+      "128",
+      "ARP",
+      "TCP",
+      "HDLC"
     ]
   },
   {
@@ -1404,16 +1654,18 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 09",
     "category": "TCP",
     "type": "fill-blank",
-    "question": "연결형 신뢰성 전송 계층 프로토콜에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 신뢰성 있는 연결형 전송 서비스를 제공하는 대표 프로토콜: ( ① )",
     "answer": [
       "TCP"
     ],
-    "explanation": "TCP은/는 연결형 신뢰성 전송 계층 프로토콜이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "TCP은/는 신뢰성 있는 연결형 전송 서비스를 제공하는 대표 프로토콜이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q06",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "TCP"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-082",
@@ -1421,16 +1673,18 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 09",
     "category": "세그먼트",
     "type": "fill-blank",
-    "question": "TCP가 데이터를 나누어 전송할 때 사용하는 단위에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. TCP가 응용 데이터를 나누어 전송할 때 사용하는 데이터 단위: ( ① )",
     "answer": [
       "세그먼트"
     ],
-    "explanation": "세그먼트은/는 TCP가 데이터를 나누어 전송할 때 사용하는 단위이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "세그먼트은/는 TCP가 응용 데이터를 나누어 전송할 때 사용하는 데이터 단위이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "세그먼트"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-083",
@@ -1438,314 +1692,370 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 09",
     "category": "3-way handshake",
     "type": "fill-blank",
-    "question": "SYN, SYN+ACK, ACK 흐름으로 연결을 설정하는 절차에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. SYN, SYN+ACK, ACK 순서로 연결 상태를 확인하는 TCP 연결 설정 절차: ( ① )",
     "answer": [
       "3-way handshake"
     ],
-    "explanation": "3-way handshake은/는 SYN, SYN+ACK, ACK 흐름으로 연결을 설정하는 절차이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "3-way handshake은/는 SYN, SYN+ACK, ACK 순서로 연결 상태를 확인하는 TCP 연결 설정 절차이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q06",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "3-way handshake"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-084",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "SYN",
+    "category": "순서 번호",
     "type": "fill-blank",
-    "question": "TCP 연결 설정 시작을 나타내는 제어 플래그에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. TCP 바이트 스트림의 위치와 순서를 관리하는 헤더 필드: ( ① )",
     "answer": [
-      "SYN"
+      "순서 번호"
     ],
-    "explanation": "SYN은/는 TCP 연결 설정 시작을 나타내는 제어 플래그이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "순서 번호은/는 TCP 바이트 스트림의 위치와 순서를 관리하는 헤더 필드이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "SYN"
-    ],
-    "choices": []
+      "순서 번호"
+    ]
   },
   {
     "id": "CN-FINAL-085",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "TCP 프로토콜",
-    "type": "multi-select",
-    "question": "TCP에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "확인 응답 번호",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 상대가 다음에 보내야 할 바이트 위치를 알려 주는 TCP 헤더 필드: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "확인 응답 번호"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "연결형 전송 서비스를 제공한다",
-      "순서 제어와 재전송으로 신뢰성을 높인다",
-      "UDP보다 항상 헤더와 제어가 단순하다",
-      "포트 번호로 응용 프로세스를 구분한다"
+    "explanation": "확인 응답 번호은/는 상대가 다음에 보내야 할 바이트 위치를 알려 주는 TCP 헤더 필드이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "확인 응답 번호"
     ]
   },
   {
     "id": "CN-FINAL-086",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "TCP 프로토콜",
-    "type": "multi-select",
-    "question": "3-way handshake에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "FIN",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. TCP 연결 종료 의사를 나타내는 제어 플래그: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "FIN"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "연결 설정 절차이다",
-      "SYN과 ACK 플래그가 관련된다",
-      "데이터 링크 계층 토큰 회수 절차이다",
-      "초기 순서 번호 동기화와 관련된다"
+    "explanation": "FIN은/는 TCP 연결 종료 의사를 나타내는 제어 플래그이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "FIN"
     ]
   },
   {
     "id": "CN-FINAL-087",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "TCP 프로토콜",
-    "type": "multi-select",
-    "question": "TCP 흐름 제어와 혼잡 제어 설명으로 옳은 것을 모두 고르시오.",
+    "category": "혼잡 제어",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 네트워크 혼잡을 줄이기 위해 TCP 송신량을 조절하는 기능: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "혼잡 제어"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "흐름 제어는 수신 윈도우와 관련된다",
-      "혼잡 제어는 네트워크 과부하 완화와 관련된다",
-      "두 제어는 목적이 완전히 동일하다",
-      "송신량 조절에 영향을 줄 수 있다"
+    "explanation": "혼잡 제어은/는 네트워크 혼잡을 줄이기 위해 TCP 송신량을 조절하는 기능이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q11",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "혼잡 제어"
     ]
   },
   {
     "id": "CN-FINAL-088",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "TCP 프로토콜",
+    "category": "TCP 특징",
     "type": "multi-select",
-    "question": "TCP 연결 해제에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "question": "TCP 특징으로 옳은 것을 모두 고르시오.",
     "answer": [
       1,
       2,
       4
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "1, 2, 4번은 TCP 특징의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q06",
+    "confidence": "high",
     "choices": [
-      "FIN 플래그가 사용될 수 있다",
-      "양방향 종료를 위해 여러 메시지가 교환될 수 있다",
-      "항상 ARP 요청으로 종료된다",
-      "ACK가 해제 절차에 포함될 수 있다"
+      "연결형 서비스를 제공한다.",
+      "신뢰성 있는 데이터 전송을 지원한다.",
+      "IP 주소를 MAC 주소로 변환한다.",
+      "흐름 제어와 오류 제어 기능을 포함한다."
     ]
   },
   {
     "id": "CN-FINAL-089",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "TCP 프로토콜",
-    "type": "explain",
-    "question": "TCP 3-way handshake를 설명하시오.",
-    "answer": "클라이언트가 SYN을 보내고 서버가 SYN+ACK로 응답하며 클라이언트가 ACK를 보내 연결을 설정하고 초기 순서 번호를 맞춘다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "SYN",
-      "SYN+ACK",
-      "ACK",
-      "연결 설정"
+    "category": "TCP 헤더",
+    "type": "multi-select",
+    "question": "TCP 헤더 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 TCP 헤더의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [
+      "포트 번호는 프로세스 식별에 쓰인다.",
+      "순서 번호는 데이터 순서 제어에 쓰인다.",
+      "TTL은 TCP 종료 전용 필드이다.",
+      "ACK 플래그는 확인 응답 번호의 유효성과 관련된다."
     ]
   },
   {
     "id": "CN-FINAL-090",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "TCP 프로토콜",
-    "type": "explain",
-    "question": "TCP의 흐름 제어와 혼잡 제어를 비교하시오.",
-    "answer": "흐름 제어는 수신자의 버퍼와 처리 능력을 기준으로, 혼잡 제어는 네트워크 혼잡 상태를 기준으로 송신량을 조절한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "흐름 제어",
-      "혼잡 제어",
-      "수신자",
-      "네트워크"
+    "category": "연결 설정/해제",
+    "type": "multi-select",
+    "question": "TCP 연결 설정/해제 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 연결 설정/해제의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [
+      "연결 설정에는 SYN과 ACK가 사용된다.",
+      "FIN은 연결 종료 의사 표시에 쓰일 수 있다.",
+      "TCP는 항상 UDP처럼 연결 설정 없이 동작한다.",
+      "3-way handshake는 양쪽 상태 확인 절차이다."
     ]
   },
   {
     "id": "CN-FINAL-091",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "TCP 프로토콜",
-    "type": "explain",
-    "question": "TCP 오류 제어가 신뢰성 전송에 기여하는 방식을 설명하시오.",
-    "answer": "순서 번호, ACK, 체크섬, 타이머 기반 재전송을 이용해 손실이나 오류를 복구하고 순서 있는 전달을 지원한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "순서 번호",
-      "ACK",
-      "체크섬",
-      "재전송"
+    "category": "전송 계층 기능",
+    "type": "multi-select",
+    "question": "전송 계층 기능으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 전송 계층 기능의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [
+      "포트 번호로 프로세스 간 통신을 지원한다.",
+      "오류 제어와 흐름 제어를 수행할 수 있다.",
+      "LAN 토큰 순환 순서만 결정한다.",
+      "데이터 분할과 재조립을 수행할 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-092",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "FIN",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: TCP 연결 종료 요청과 관련된 제어 플래그",
-    "answer": "FIN",
-    "explanation": "정답은 FIN이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "FIN",
-      "fin"
+    "category": "TCP 데이터 전송",
+    "type": "multi-select",
+    "question": "TCP 데이터 전송 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 TCP 데이터 전송의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q10",
+    "confidence": "high",
+    "choices": [
+      "순서 번호로 데이터 순서를 관리한다.",
+      "확인 응답으로 수신 여부를 확인한다.",
+      "손실된 데이터는 절대 재전송하지 않는다.",
+      "수신 윈도우는 흐름 제어와 관련된다."
     ]
   },
   {
     "id": "CN-FINAL-093",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "흐름 제어",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 수신 윈도우를 고려해 송신량을 조절하는 기능",
-    "answer": "흐름 제어",
-    "explanation": "정답은 흐름 제어이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "흐름 제어",
-      "흐름 제어"
+    "category": "TCP",
+    "type": "explain",
+    "question": "TCP에 대하여 설명하시오.",
+    "answer": "TCP은/는 신뢰성 있는 연결형 전송 서비스를 제공하는 대표 프로토콜이다.",
+    "explanation": [
+      "TCP",
+      "연결형",
+      "신뢰성"
+    ],
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q06",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "TCP",
+      "연결형",
+      "신뢰성"
     ]
   },
   {
     "id": "CN-FINAL-094",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "오류 제어",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: ACK, 체크섬, 재전송으로 손실·오류를 복구하는 기능",
-    "answer": "오류 제어",
-    "explanation": "정답은 오류 제어이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "오류 제어",
-      "오류 제어"
+    "category": "세그먼트",
+    "type": "explain",
+    "question": "세그먼트에 대하여 설명하시오.",
+    "answer": "세그먼트은/는 TCP가 응용 데이터를 나누어 전송할 때 사용하는 데이터 단위이다.",
+    "explanation": [
+      "TCP",
+      "세그먼트",
+      "데이터 단위"
+    ],
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "TCP",
+      "세그먼트",
+      "데이터 단위"
     ]
   },
   {
     "id": "CN-FINAL-095",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "TCP",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 연결형 신뢰성 전송 계층 프로토콜",
-    "answer": 1,
-    "explanation": "TCP은/는 연결형 신뢰성 전송 계층 프로토콜이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "TCP",
-      "세그먼트",
-      "3-way handshake",
-      "SYN"
+    "category": "3-way handshake",
+    "type": "explain",
+    "question": "3-way handshake에 대하여 설명하시오.",
+    "answer": "3-way handshake은/는 SYN, SYN+ACK, ACK 순서로 연결 상태를 확인하는 TCP 연결 설정 절차이다.",
+    "explanation": [
+      "SYN",
+      "ACK",
+      "연결 설정"
+    ],
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q06",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "SYN",
+      "ACK",
+      "연결 설정"
     ]
   },
   {
     "id": "CN-FINAL-096",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "세그먼트",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? TCP가 데이터를 나누어 전송할 때 사용하는 단위",
-    "answer": 2,
-    "explanation": "세그먼트은/는 TCP가 데이터를 나누어 전송할 때 사용하는 단위이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "TCP",
-      "세그먼트",
-      "3-way handshake",
-      "SYN"
+    "category": "확인 응답 번호",
+    "type": "explain",
+    "question": "확인 응답 번호에 대하여 설명하시오.",
+    "answer": "확인 응답 번호은/는 상대가 다음에 보내야 할 바이트 위치를 알려 주는 TCP 헤더 필드이다.",
+    "explanation": [
+      "ACK",
+      "확인 응답",
+      "TCP"
+    ],
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "ACK",
+      "확인 응답",
+      "TCP"
     ]
   },
   {
     "id": "CN-FINAL-097",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "3-way handshake",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? SYN, SYN+ACK, ACK 흐름으로 연결을 설정하는 절차",
-    "answer": 3,
-    "explanation": "3-way handshake은/는 SYN, SYN+ACK, ACK 흐름으로 연결을 설정하는 절차이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "TCP",
-      "세그먼트",
-      "3-way handshake",
-      "SYN"
+    "category": "포트 번호",
+    "type": "short-answer",
+    "question": "전송 계층 프로세스 식별 번호는?",
+    "answer": "포트 번호",
+    "explanation": "정답은 포트 번호이다. 전송 계층에서 송수신 프로세스를 구분하는 번호을/를 가리킨다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q03",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "포트 번호"
     ]
   },
   {
     "id": "CN-FINAL-098",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "SYN",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? TCP 연결 설정 시작을 나타내는 제어 플래그",
-    "answer": 4,
-    "explanation": "SYN은/는 TCP 연결 설정 시작을 나타내는 제어 플래그이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "TCP",
-      "세그먼트",
-      "3-way handshake",
-      "SYN"
+    "category": "ACK",
+    "type": "short-answer",
+    "question": "TCP에서 수신 확인을 나타내는 정보는?",
+    "answer": "ACK",
+    "explanation": "정답은 ACK이다. TCP에서 확인 응답을 의미하는 제어 정보을/를 가리킨다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "ACK"
     ]
   },
   {
     "id": "CN-FINAL-099",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "FIN",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? TCP 연결 종료 요청과 관련된 제어 플래그",
-    "answer": 1,
-    "explanation": "FIN은/는 TCP 연결 종료 요청과 관련된 제어 플래그이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "FIN",
-      "TCP",
-      "세그먼트",
-      "3-way handshake"
+    "category": "수신 윈도우",
+    "type": "short-answer",
+    "question": "TCP 흐름 제어에서 수신 가능량을 알리는 값은?",
+    "answer": "수신 윈도우",
+    "explanation": "정답은 수신 윈도우이다. 수신 측이 받을 수 있는 데이터 양을 알려 흐름 제어에 쓰는 값을/를 가리킨다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q10",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "수신 윈도우"
     ]
   },
   {
     "id": "CN-FINAL-100",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 09",
-    "category": "흐름 제어",
+    "category": "TCP",
     "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 수신 윈도우를 고려해 송신량을 조절하는 기능",
-    "answer": 2,
-    "explanation": "흐름 제어은/는 수신 윈도우를 고려해 송신량을 조절하는 기능이다.",
-    "source": "교재 Chapter 09 및 교수님 시험 스타일 기반 재구성",
+    "question": "다음 설명에 해당하는 것을 고르시오. 신뢰성 있는 연결형 전송 서비스를 제공하는 대표 프로토콜",
+    "answer": 1,
+    "explanation": "TCP은/는 신뢰성 있는 연결형 전송 서비스를 제공하는 대표 프로토콜이다.",
+    "source": "예제json Chapter 09 기반 재구성",
+    "sourceBasis": "source/예제json/9장_선다형.json#Q06",
+    "confidence": "high",
     "choices": [
       "TCP",
-      "흐름 제어",
-      "세그먼트",
-      "3-way handshake"
+      "ARP",
+      "HDLC",
+      "표현 계층"
     ]
   },
   {
@@ -1754,348 +2064,408 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 10",
     "category": "UDP",
     "type": "fill-blank",
-    "question": "비연결형이며 헤더가 단순한 전송 계층 프로토콜에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 연결 설정 없이 작고 빠른 데이터그램 전송을 제공하는 전송 계층 프로토콜: ( ① )",
     "answer": [
       "UDP"
     ],
-    "explanation": "UDP은/는 비연결형이며 헤더가 단순한 전송 계층 프로토콜이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "UDP은/는 연결 설정 없이 작고 빠른 데이터그램 전송을 제공하는 전송 계층 프로토콜이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q01",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "UDP"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-102",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "UDP 헤더",
+    "category": "Source Port",
     "type": "fill-blank",
-    "question": "출발지 포트, 목적지 포트, 길이, 체크섬 중심의 단순 헤더에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. UDP 헤더에서 송신 프로세스의 포트 번호를 나타내는 필드: ( ① )",
     "answer": [
-      "UDP 헤더"
+      "Source Port"
     ],
-    "explanation": "UDP 헤더은/는 출발지 포트, 목적지 포트, 길이, 체크섬 중심의 단순 헤더이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "Source Port은/는 UDP 헤더에서 송신 프로세스의 포트 번호를 나타내는 필드이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "UDP 헤더"
-    ],
-    "choices": []
+      "Source Port"
+    ]
   },
   {
     "id": "CN-FINAL-103",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "RTP",
+    "category": "Destination Port",
     "type": "fill-blank",
-    "question": "실시간 오디오·비디오 전송에서 순서와 시간 정보를 보조하는 프로토콜에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. UDP 헤더에서 수신 프로세스의 포트 번호를 나타내는 필드: ( ① )",
     "answer": [
-      "RTP"
+      "Destination Port"
     ],
-    "explanation": "RTP은/는 실시간 오디오·비디오 전송에서 순서와 시간 정보를 보조하는 프로토콜이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "Destination Port은/는 UDP 헤더에서 수신 프로세스의 포트 번호를 나타내는 필드이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "RTP"
-    ],
-    "choices": []
+      "Destination Port"
+    ]
   },
   {
     "id": "CN-FINAL-104",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "RTP 릴레이",
+    "category": "Length",
     "type": "fill-blank",
-    "question": "실시간 미디어 흐름을 중계하거나 전달 경로를 보조하는 기능에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. UDP 헤더와 데이터를 포함한 데이터그램 전체 길이를 나타내는 필드: ( ① )",
     "answer": [
-      "RTP 릴레이"
+      "Length"
     ],
-    "explanation": "RTP 릴레이은/는 실시간 미디어 흐름을 중계하거나 전달 경로를 보조하는 기능이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "Length은/는 UDP 헤더와 데이터를 포함한 데이터그램 전체 길이를 나타내는 필드이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "RTP 릴레이"
-    ],
-    "choices": []
+      "Length"
+    ]
   },
   {
     "id": "CN-FINAL-105",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "전송 계층",
-    "type": "multi-select",
-    "question": "UDP 프로토콜에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "Checksum",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. UDP 헤더와 데이터 변형 오류를 검출하는 데 쓰는 필드: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "Checksum"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "비연결형 서비스를 제공한다",
-      "TCP보다 일반적으로 헤더가 단순하다",
-      "연결 설정 과정이 필수이다",
-      "빠른 전송이 중요한 경우 사용될 수 있다"
+    "explanation": "Checksum은/는 UDP 헤더와 데이터 변형 오류를 검출하는 데 쓰는 필드이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "Checksum"
     ]
   },
   {
     "id": "CN-FINAL-106",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "전송 계층",
-    "type": "multi-select",
-    "question": "UDP 헤더에 포함되는 필드로 옳은 것을 모두 고르시오.",
+    "category": "RTP",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 실시간 오디오와 비디오 데이터 전송을 지원하는 프로토콜: ( ① )",
     "answer": [
-      1,
-      2,
-      3
+      "RTP"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "출발지 포트",
-      "목적지 포트",
-      "길이",
-      "TCP 순서 번호"
+    "explanation": "RTP은/는 실시간 오디오와 비디오 데이터 전송을 지원하는 프로토콜이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q05",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "RTP"
     ]
   },
   {
     "id": "CN-FINAL-107",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "전송 계층",
-    "type": "multi-select",
-    "question": "RTP에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "Sequence Number",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. RTP 패킷의 순서와 손실 판단에 도움을 주는 필드: ( ① )",
     "answer": [
-      1,
-      2,
-      3
+      "Sequence Number"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "실시간 데이터 전송에 활용된다",
-      "순서 번호와 타임스탬프가 재생 처리에 도움을 준다",
-      "보통 UDP와 함께 설명된다",
-      "IP 주소를 MAC 주소로 변환한다"
+    "explanation": "Sequence Number은/는 RTP 패킷의 순서와 손실 판단에 도움을 주는 필드이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "Sequence Number"
     ]
   },
   {
     "id": "CN-FINAL-108",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "전송 계층",
+    "category": "UDP",
     "type": "multi-select",
-    "question": "전송 계층 기능으로 옳은 것을 모두 고르시오.",
+    "question": "UDP 설명으로 옳은 것을 모두 고르시오.",
     "answer": [
       1,
       2,
       4
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "1, 2, 4번은 UDP의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q01",
+    "confidence": "high",
     "choices": [
-      "프로세스 간 통신 지원",
-      "포트 번호를 통한 다중화/역다중화",
-      "물리 매체 전압 결정",
-      "응용별 데이터 전달 구분"
+      "비연결형 서비스를 제공한다.",
+      "헤더 구조가 단순한 편이다.",
+      "목적지 도착과 순서를 항상 보장한다.",
+      "빠른 전송이 중요한 응용에 사용할 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-109",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "전송 계층",
-    "type": "explain",
-    "question": "UDP가 적합한 응용 상황을 설명하시오.",
-    "answer": "연결 설정과 복잡한 제어보다 낮은 지연과 단순한 전송이 중요한 스트리밍, 음성, 질의 응답성 응용에 적합할 수 있다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "비연결",
-      "낮은 지연",
-      "단순",
-      "스트리밍"
+    "category": "UDP 헤더",
+    "type": "multi-select",
+    "question": "UDP 헤더 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 UDP 헤더의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [
+      "Source Port와 Destination Port가 있다.",
+      "Length 필드는 UDP 데이터그램 크기와 관련된다.",
+      "TCP와 같은 Sequence Number 필드가 필수이다.",
+      "Checksum은 오류 검출에 사용될 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-110",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "전송 계층",
-    "type": "explain",
-    "question": "RTP 헤더의 순서 번호와 타임스탬프 역할을 설명하시오.",
-    "answer": "순서 번호는 패킷 순서나 손실 판단을 돕고 타임스탬프는 실시간 데이터의 재생 시점과 동기 처리를 돕는다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "순서 번호",
-      "타임스탬프",
-      "재생",
-      "동기"
+    "category": "UDP 전송 특성",
+    "type": "multi-select",
+    "question": "UDP 전송 특성으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 UDP 전송 특성의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q03",
+    "confidence": "high",
+    "choices": [
+      "데이터그램 손실이 발생할 수 있다.",
+      "도착 순서가 바뀔 수 있다.",
+      "항상 3-way handshake 후 전송한다.",
+      "흐름 제어와 재전송을 자체 보장하지 않는다."
     ]
   },
   {
     "id": "CN-FINAL-111",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "전송 계층",
-    "type": "explain",
-    "question": "전송 계층의 다중화 기능을 설명하시오.",
-    "answer": "여러 응용 데이터를 포트 번호로 구분해 보내고 수신 측에서 목적지 포트에 따라 알맞은 프로세스에 전달한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "다중화",
-      "포트",
-      "프로세스",
-      "전달"
+    "category": "RTP",
+    "type": "multi-select",
+    "question": "RTP 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 RTP의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q05",
+    "confidence": "high",
+    "choices": [
+      "실시간 음성/영상 전송에 쓰인다.",
+      "Timestamp는 재생 타이밍 판단에 도움을 준다.",
+      "IP 주소를 MAC 주소로 변환한다.",
+      "Sequence Number는 순서 확인에 도움을 준다."
     ]
   },
   {
     "id": "CN-FINAL-112",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "RTP 헤더",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 순서 번호와 타임스탬프 등 실시간 전송 정보를 담는 헤더",
-    "answer": "RTP 헤더",
-    "explanation": "정답은 RTP 헤더이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "RTP 헤더",
-      "rtp 헤더"
+    "category": "RTCP와 OSI TP",
+    "type": "multi-select",
+    "question": "RTCP/OSI TP 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 RTCP와 OSI TP의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [
+      "RTCP는 RTP 전송 품질 제어 정보를 제공할 수 있다.",
+      "서비스 프리미티브는 계층 서비스 사용 형식이다.",
+      "RTP는 세션 계층 토큰 해제만 담당한다.",
+      "OSI TP는 전송 계층 프로토콜 계열로 설명된다."
     ]
   },
   {
     "id": "CN-FINAL-113",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "세션 프리미티브",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 연결 설정, 데이터 전송, 연결 해제 같은 서비스 기본 동작",
-    "answer": "세션 프리미티브",
-    "explanation": "정답은 세션 프리미티브이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "세션 프리미티브",
-      "세션 프리미티브"
+    "category": "UDP",
+    "type": "explain",
+    "question": "UDP에 대하여 설명하시오.",
+    "answer": "UDP은/는 연결 설정 없이 작고 빠른 데이터그램 전송을 제공하는 전송 계층 프로토콜이다.",
+    "explanation": [
+      "UDP",
+      "비연결형",
+      "데이터그램"
+    ],
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q01",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "UDP",
+      "비연결형",
+      "데이터그램"
     ]
   },
   {
     "id": "CN-FINAL-114",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "포트 번호",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 전송 계층에서 응용 프로세스를 구분하기 위한 번호",
-    "answer": "포트 번호",
-    "explanation": "정답은 포트 번호이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "포트 번호",
-      "포트 번호"
+    "category": "Source Port",
+    "type": "explain",
+    "question": "Source Port에 대하여 설명하시오.",
+    "answer": "Source Port은/는 UDP 헤더에서 송신 프로세스의 포트 번호를 나타내는 필드이다.",
+    "explanation": [
+      "Source Port",
+      "UDP",
+      "포트"
+    ],
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "Source Port",
+      "UDP",
+      "포트"
     ]
   },
   {
     "id": "CN-FINAL-115",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "UDP",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 비연결형이며 헤더가 단순한 전송 계층 프로토콜",
-    "answer": 1,
-    "explanation": "UDP은/는 비연결형이며 헤더가 단순한 전송 계층 프로토콜이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
+    "category": "Destination Port",
+    "type": "explain",
+    "question": "Destination Port에 대하여 설명하시오.",
+    "answer": "Destination Port은/는 UDP 헤더에서 수신 프로세스의 포트 번호를 나타내는 필드이다.",
+    "explanation": [
+      "Destination Port",
       "UDP",
-      "UDP 헤더",
-      "RTP",
-      "RTP 릴레이"
+      "포트"
+    ],
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "Destination Port",
+      "UDP",
+      "포트"
     ]
   },
   {
     "id": "CN-FINAL-116",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "UDP 헤더",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 출발지 포트, 목적지 포트, 길이, 체크섬 중심의 단순 헤더",
-    "answer": 2,
-    "explanation": "UDP 헤더은/는 출발지 포트, 목적지 포트, 길이, 체크섬 중심의 단순 헤더이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "UDP",
-      "UDP 헤더",
-      "RTP",
-      "RTP 릴레이"
+    "category": "Checksum",
+    "type": "explain",
+    "question": "Checksum에 대하여 설명하시오.",
+    "answer": "Checksum은/는 UDP 헤더와 데이터 변형 오류를 검출하는 데 쓰는 필드이다.",
+    "explanation": [
+      "Checksum",
+      "오류 검출",
+      "UDP"
+    ],
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "Checksum",
+      "오류 검출",
+      "UDP"
     ]
   },
   {
     "id": "CN-FINAL-117",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "RTP",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 실시간 오디오·비디오 전송에서 순서와 시간 정보를 보조하는 프로토콜",
-    "answer": 3,
-    "explanation": "RTP은/는 실시간 오디오·비디오 전송에서 순서와 시간 정보를 보조하는 프로토콜이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "UDP",
-      "UDP 헤더",
-      "RTP",
-      "RTP 릴레이"
+    "category": "Timestamp",
+    "type": "short-answer",
+    "question": "RTP 재생 시간 판단 필드는?",
+    "answer": "Timestamp",
+    "explanation": "정답은 Timestamp이다. RTP에서 재생 시점과 시간 동기 판단에 쓰는 필드을/를 가리킨다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "Timestamp"
     ]
   },
   {
     "id": "CN-FINAL-118",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "RTP 릴레이",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 실시간 미디어 흐름을 중계하거나 전달 경로를 보조하는 기능",
-    "answer": 4,
-    "explanation": "RTP 릴레이은/는 실시간 미디어 흐름을 중계하거나 전달 경로를 보조하는 기능이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "UDP",
-      "UDP 헤더",
-      "RTP",
-      "RTP 릴레이"
+    "category": "RTCP",
+    "type": "short-answer",
+    "question": "RTP 제어 프로토콜은?",
+    "answer": "RTCP",
+    "explanation": "정답은 RTCP이다. RTP 세션의 품질과 제어 정보를 주고받는 보조 프로토콜을/를 가리킨다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "RTCP"
     ]
   },
   {
     "id": "CN-FINAL-119",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "RTP 헤더",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 순서 번호와 타임스탬프 등 실시간 전송 정보를 담는 헤더",
-    "answer": 1,
-    "explanation": "RTP 헤더은/는 순서 번호와 타임스탬프 등 실시간 전송 정보를 담는 헤더이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "RTP 헤더",
-      "UDP",
-      "UDP 헤더",
-      "RTP"
+    "category": "서비스 프리미티브",
+    "type": "short-answer",
+    "question": "요청/지시/응답/확인 형태의 서비스 인터페이스는?",
+    "answer": "서비스 프리미티브",
+    "explanation": "정답은 서비스 프리미티브이다. 계층 서비스를 요청·지시·응답·확인 형태로 사용하는 인터페이스 동작을/를 가리킨다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q09",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "서비스 프리미티브"
     ]
   },
   {
     "id": "CN-FINAL-120",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 10",
-    "category": "세션 프리미티브",
+    "category": "UDP",
     "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 연결 설정, 데이터 전송, 연결 해제 같은 서비스 기본 동작",
-    "answer": 2,
-    "explanation": "세션 프리미티브은/는 연결 설정, 데이터 전송, 연결 해제 같은 서비스 기본 동작이다.",
-    "source": "교재 Chapter 10 및 교수님 시험 스타일 기반 재구성",
+    "question": "다음 설명에 해당하는 것을 고르시오. 연결 설정 없이 작고 빠른 데이터그램 전송을 제공하는 전송 계층 프로토콜",
+    "answer": 1,
+    "explanation": "UDP은/는 연결 설정 없이 작고 빠른 데이터그램 전송을 제공하는 전송 계층 프로토콜이다.",
+    "source": "예제json Chapter 10 기반 재구성",
+    "sourceBasis": "source/예제json/10장_선다형.json#Q01",
+    "confidence": "high",
     "choices": [
       "UDP",
-      "세션 프리미티브",
-      "UDP 헤더",
-      "RTP"
+      "ARP",
+      "TCP",
+      "HDLC"
     ]
   },
   {
@@ -2104,16 +2474,18 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 11",
     "category": "세션 계층",
     "type": "fill-blank",
-    "question": "대화 제어, 토큰 관리, 동기점 설정을 담당하는 계층에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 응용 프로세스 사이의 대화 관리와 동기 기능을 담당하는 계층: ( ① )",
     "answer": [
       "세션 계층"
     ],
-    "explanation": "세션 계층은/는 대화 제어, 토큰 관리, 동기점 설정을 담당하는 계층이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "세션 계층은/는 응용 프로세스 사이의 대화 관리와 동기 기능을 담당하는 계층이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q01",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "세션 계층"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-122",
@@ -2121,16 +2493,18 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 11",
     "category": "토큰",
     "type": "fill-blank",
-    "question": "세션에서 특정 동작 수행 권한을 제어하는 논리 정보에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 세션에서 특정 동작 권한을 제어하는 특수 메시지: ( ① )",
     "answer": [
       "토큰"
     ],
-    "explanation": "토큰은/는 세션에서 특정 동작 수행 권한을 제어하는 논리 정보이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "토큰은/는 세션에서 특정 동작 권한을 제어하는 특수 메시지이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
       "토큰"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-123",
@@ -2138,314 +2512,370 @@ const NETWORK_FINAL_QUESTIONS = [
     "chapter": "Chapter 11",
     "category": "동기점",
     "type": "fill-blank",
-    "question": "오류 발생 시 복구 기준점으로 사용할 수 있는 표시에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 긴 데이터 전송 중 오류 복구 기준으로 삼는 합의 지점: ( ① )",
     "answer": [
       "동기점"
     ],
-    "explanation": "동기점은/는 오류 발생 시 복구 기준점으로 사용할 수 있는 표시이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "동기점은/는 긴 데이터 전송 중 오류 복구 기준으로 삼는 합의 지점이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q03",
+    "confidence": "medium",
+    "choices": [],
     "blanks": [
       "동기점"
-    ],
-    "choices": []
+    ]
   },
   {
     "id": "CN-FINAL-124",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "표현 계층",
+    "category": "세션 연결",
     "type": "fill-blank",
-    "question": "데이터 표현 형식, 압축, 암호화 변환을 담당하는 계층에 해당하는 핵심 용어는 ( ① )이다.",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 응용 프로세스 사이 대화를 위해 설정하는 논리적 연결: ( ① )",
     "answer": [
-      "표현 계층"
+      "세션 연결"
     ],
-    "explanation": "표현 계층은/는 데이터 표현 형식, 압축, 암호화 변환을 담당하는 계층이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "세션 연결은/는 응용 프로세스 사이 대화를 위해 설정하는 논리적 연결이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q04",
+    "confidence": "high",
+    "choices": [],
     "blanks": [
-      "표현 계층"
-    ],
-    "choices": []
+      "세션 연결"
+    ]
   },
   {
     "id": "CN-FINAL-125",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "상위 계층",
-    "type": "multi-select",
-    "question": "세션 계층 기능으로 옳은 것을 모두 고르시오.",
+    "category": "표현 계층",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 데이터 표현 형식 변환, 압축, 암호화와 관련된 계층: ( ① )",
     "answer": [
-      1,
-      2,
-      3
+      "표현 계층"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "대화 제어",
-      "동기점 관리",
-      "토큰 관리",
-      "IP 패킷 분할 오프셋 계산"
+    "explanation": "표현 계층은/는 데이터 표현 형식 변환, 압축, 암호화와 관련된 계층이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q05",
+    "confidence": "medium",
+    "choices": [],
+    "blanks": [
+      "표현 계층"
     ]
   },
   {
     "id": "CN-FINAL-126",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "상위 계층",
-    "type": "multi-select",
-    "question": "표현 계층 기능으로 옳은 것을 모두 고르시오.",
+    "category": "데이터 압축",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 데이터 크기를 줄여 전송 효율을 높이는 표현 처리 기능: ( ① )",
     "answer": [
-      1,
-      2,
-      3
+      "데이터 압축"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "데이터 표현 형식 변환",
-      "데이터 압축",
-      "암호화와 복호화 관련 기능",
-      "라우팅 테이블 계산만 수행"
+    "explanation": "데이터 압축은/는 데이터 크기를 줄여 전송 효율을 높이는 표현 처리 기능이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q07",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "데이터 압축"
     ]
   },
   {
     "id": "CN-FINAL-127",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "상위 계층",
-    "type": "multi-select",
-    "question": "응용 계층에 대한 설명으로 옳은 것을 모두 고르시오.",
+    "category": "응용 계층",
+    "type": "fill-blank",
+    "question": "다음 설명에 해당하는 용어를 쓰시오. 사용자에게 네트워크 응용 서비스를 제공하는 최상위 계층: ( ① )",
     "answer": [
-      1,
-      2,
-      4
+      "응용 계층"
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "사용자에게 네트워크 서비스를 제공한다",
-      "웹, 메일, 파일 전송과 관련될 수 있다",
-      "물리 신호 전압만 정의한다",
-      "전송 계층 서비스를 이용해 동작할 수 있다"
+    "explanation": "응용 계층은/는 사용자에게 네트워크 응용 서비스를 제공하는 최상위 계층이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [],
+    "blanks": [
+      "응용 계층"
     ]
   },
   {
     "id": "CN-FINAL-128",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "상위 계층",
+    "category": "세션 계층",
     "type": "multi-select",
-    "question": "클라이언트-서버 모델 설명으로 옳은 것을 모두 고르시오.",
+    "question": "세션 계층 기능으로 옳은 것을 모두 고르시오.",
     "answer": [
       1,
       2,
       4
     ],
-    "explanation": "각 선지는 해당 장의 핵심 개념을 기준으로 판별한다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
+    "explanation": "1, 2, 4번은 세션 계층의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q01",
+    "confidence": "high",
     "choices": [
-      "클라이언트는 서비스를 요청한다",
-      "서버는 요청에 대한 서비스를 제공한다",
-      "항상 두 역할이 같은 장치에만 존재해야 한다",
-      "웹 서비스 설명에 자주 활용된다"
+      "세션 연결 설정과 해제를 관리한다.",
+      "대화 중 동기점을 둘 수 있다.",
+      "IP 패킷 TTL을 감소시킨다.",
+      "토큰으로 대화 권한을 제어할 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-129",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "상위 계층",
-    "type": "explain",
-    "question": "세션 계층에서 동기점의 목적을 설명하시오.",
-    "answer": "긴 데이터 교환 중 복구 기준을 만들어 오류가 발생했을 때 처음부터가 아니라 특정 지점부터 재개하도록 돕는다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "동기점",
-      "복구",
-      "재동기화",
-      "기준점"
+    "category": "토큰",
+    "type": "multi-select",
+    "question": "세션 토큰 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 토큰의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [
+      "데이터 전송 권한을 제어할 수 있다.",
+      "동기 처리를 위한 토큰 개념이 있다.",
+      "IP 주소를 MAC 주소로 바꾸는 표이다.",
+      "종료 절차 제어에도 토큰 개념이 사용될 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-130",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "상위 계층",
-    "type": "explain",
-    "question": "표현 계층의 주요 기능을 설명하시오.",
-    "answer": "서로 다른 시스템 간 데이터 표현 형식을 맞추고 필요하면 압축, 암호화, 코드 변환을 수행한다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "표현 계층",
-      "데이터 표현",
-      "압축",
-      "암호화"
+    "category": "동기와 재동기",
+    "type": "multi-select",
+    "question": "동기/재동기 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 동기와 재동기의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q03",
+    "confidence": "medium",
+    "choices": [
+      "동기점은 오류 복구 기준점 역할을 한다.",
+      "주동기점은 큰 대화 단위 경계를 나타낼 수 있다.",
+      "동기점은 문자 인코딩을 ASCII로만 고정하는 기능이다.",
+      "부동기점은 큰 단위 내부의 작은 기준점으로 쓸 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-131",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "상위 계층",
-    "type": "explain",
-    "question": "클라이언트-서버 모델을 설명하시오.",
-    "answer": "클라이언트는 서비스를 요청하고 서버는 요청을 처리해 자원이나 결과를 제공하는 통신 모델이다.",
-    "explanation": "설명형은 핵심 키워드 포함 여부를 기준으로 채점 보조를 제공한다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "keywords": [
-      "클라이언트",
-      "서버",
-      "요청",
-      "제공"
+    "category": "표현 계층",
+    "type": "multi-select",
+    "question": "표현 계층 기능으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 표현 계층의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q05",
+    "confidence": "medium",
+    "choices": [
+      "서로 다른 데이터 표현 형식을 변환한다.",
+      "데이터 압축을 수행할 수 있다.",
+      "라우터 최단 경로 계산만 전담한다.",
+      "암호화/복호화 같은 표현 처리와 관련될 수 있다."
     ]
   },
   {
     "id": "CN-FINAL-132",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "데이터 압축",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 전송하거나 저장할 데이터 양을 줄이는 기능",
-    "answer": "데이터 압축",
-    "explanation": "정답은 데이터 압축이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "데이터 압축",
-      "데이터 압축"
+    "category": "응용 계층",
+    "type": "multi-select",
+    "question": "응용 계층과 클라이언트-서버 설명으로 옳은 것을 모두 고르시오.",
+    "answer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "1, 2, 4번은 응용 계층의 핵심 설명이고 3번은 다른 계층/프로토콜의 기능을 섞은 함정이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [
+      "응용 계층은 사용자에게 네트워크 응용 서비스를 제공한다.",
+      "클라이언트는 서비스를 요청한다.",
+      "서버는 항상 세션 토큰 그 자체이다.",
+      "서버는 요청을 처리하고 서비스를 제공한다."
     ]
   },
   {
     "id": "CN-FINAL-133",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "응용 계층",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 사용자에게 네트워크 응용 서비스를 제공하는 계층",
-    "answer": "응용 계층",
-    "explanation": "정답은 응용 계층이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "응용 계층",
-      "응용 계층"
+    "category": "세션 계층",
+    "type": "explain",
+    "question": "세션 계층에 대하여 설명하시오.",
+    "answer": "세션 계층은/는 응용 프로세스 사이의 대화 관리와 동기 기능을 담당하는 계층이다.",
+    "explanation": [
+      "세션",
+      "대화",
+      "동기"
+    ],
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q01",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "세션",
+      "대화",
+      "동기"
     ]
   },
   {
     "id": "CN-FINAL-134",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "클라이언트-서버 모델",
-    "type": "short-answer",
-    "question": "다음 설명에 해당하는 용어를 쓰시오: 서비스 요청자와 제공자를 구분하는 응용 구조",
-    "answer": "클라이언트-서버 모델",
-    "explanation": "정답은 클라이언트-서버 모델이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "acceptedAnswers": [
-      "클라이언트-서버 모델",
-      "클라이언트-서버 모델"
+    "category": "토큰",
+    "type": "explain",
+    "question": "토큰에 대하여 설명하시오.",
+    "answer": "토큰은/는 세션에서 특정 동작 권한을 제어하는 특수 메시지이다.",
+    "explanation": [
+      "토큰",
+      "권한",
+      "세션"
+    ],
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q02",
+    "confidence": "high",
+    "choices": [],
+    "keywords": [
+      "토큰",
+      "권한",
+      "세션"
     ]
   },
   {
     "id": "CN-FINAL-135",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "세션 계층",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 대화 제어, 토큰 관리, 동기점 설정을 담당하는 계층",
-    "answer": 1,
-    "explanation": "세션 계층은/는 대화 제어, 토큰 관리, 동기점 설정을 담당하는 계층이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "세션 계층",
-      "토큰",
+    "category": "동기점",
+    "type": "explain",
+    "question": "동기점에 대하여 설명하시오.",
+    "answer": "동기점은/는 긴 데이터 전송 중 오류 복구 기준으로 삼는 합의 지점이다.",
+    "explanation": [
       "동기점",
-      "표현 계층"
+      "복구",
+      "세션"
+    ],
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q03",
+    "confidence": "medium",
+    "choices": [],
+    "keywords": [
+      "동기점",
+      "복구",
+      "세션"
     ]
   },
   {
     "id": "CN-FINAL-136",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "토큰",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 세션에서 특정 동작 수행 권한을 제어하는 논리 정보",
-    "answer": 2,
-    "explanation": "토큰은/는 세션에서 특정 동작 수행 권한을 제어하는 논리 정보이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "세션 계층",
-      "토큰",
-      "동기점",
-      "표현 계층"
+    "category": "표현 계층",
+    "type": "explain",
+    "question": "표현 계층에 대하여 설명하시오.",
+    "answer": "표현 계층은/는 데이터 표현 형식 변환, 압축, 암호화와 관련된 계층이다.",
+    "explanation": [
+      "표현",
+      "형식 변환",
+      "압축"
+    ],
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q05",
+    "confidence": "medium",
+    "choices": [],
+    "keywords": [
+      "표현",
+      "형식 변환",
+      "압축"
     ]
   },
   {
     "id": "CN-FINAL-137",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "동기점",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 오류 발생 시 복구 기준점으로 사용할 수 있는 표시",
-    "answer": 3,
-    "explanation": "동기점은/는 오류 발생 시 복구 기준점으로 사용할 수 있는 표시이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "세션 계층",
-      "토큰",
-      "동기점",
-      "표현 계층"
+    "category": "클라이언트",
+    "type": "short-answer",
+    "question": "서비스를 요청하는 주체는?",
+    "answer": "클라이언트",
+    "explanation": "정답은 클라이언트이다. 클라이언트-서버 모델에서 서비스를 요청하는 주체을/를 가리킨다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "클라이언트"
     ]
   },
   {
     "id": "CN-FINAL-138",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "표현 계층",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 데이터 표현 형식, 압축, 암호화 변환을 담당하는 계층",
-    "answer": 4,
-    "explanation": "표현 계층은/는 데이터 표현 형식, 압축, 암호화 변환을 담당하는 계층이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "세션 계층",
-      "토큰",
-      "동기점",
-      "표현 계층"
+    "category": "서버",
+    "type": "short-answer",
+    "question": "서비스를 제공하는 주체는?",
+    "answer": "서버",
+    "explanation": "정답은 서버이다. 클라이언트 요청을 처리하고 서비스를 제공하는 주체을/를 가리킨다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q08",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "서버"
     ]
   },
   {
     "id": "CN-FINAL-139",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "데이터 압축",
-    "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 전송하거나 저장할 데이터 양을 줄이는 기능",
-    "answer": 1,
-    "explanation": "데이터 압축은/는 전송하거나 저장할 데이터 양을 줄이는 기능이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
-    "choices": [
-      "데이터 압축",
-      "세션 계층",
-      "토큰",
-      "동기점"
+    "category": "상태 정보",
+    "type": "short-answer",
+    "question": "서버가 이전 상호작용 맥락을 기억하는 정보는?",
+    "answer": "상태 정보",
+    "explanation": "정답은 상태 정보이다. 서버가 클라이언트와의 상호작용 맥락을 기억하기 위해 관리할 수 있는 정보을/를 가리킨다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q09",
+    "confidence": "high",
+    "choices": [],
+    "acceptedAnswers": [
+      "상태 정보"
     ]
   },
   {
     "id": "CN-FINAL-140",
     "exam": "컴퓨터네트워크 기말고사",
     "chapter": "Chapter 11",
-    "category": "응용 계층",
+    "category": "표현 계층",
     "type": "multiple-choice",
-    "question": "다음 설명에 해당하는 용어는? 사용자에게 네트워크 응용 서비스를 제공하는 계층",
-    "answer": 2,
-    "explanation": "응용 계층은/는 사용자에게 네트워크 응용 서비스를 제공하는 계층이다.",
-    "source": "교재 Chapter 11 및 교수님 시험 스타일 기반 재구성",
+    "question": "다음 설명에 해당하는 것을 고르시오. 데이터 표현 형식 변환, 압축, 암호화와 관련된 계층",
+    "answer": 1,
+    "explanation": "표현 계층은/는 데이터 표현 형식 변환, 압축, 암호화와 관련된 계층이다.",
+    "source": "예제json Chapter 11 기반 재구성",
+    "sourceBasis": "source/예제json/11장_선다형.json#Q05",
+    "confidence": "medium",
     "choices": [
-      "세션 계층",
-      "응용 계층",
-      "토큰",
-      "동기점"
+      "표현 계층",
+      "ARP",
+      "TCP",
+      "HDLC"
     ]
   }
 ];
