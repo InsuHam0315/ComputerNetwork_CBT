@@ -1,1 +1,34 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>교수님 시험 스타일 분석</title><link rel="stylesheet" href="../../assets/style.css"><style>:root{--bg:#f7fafc;--card:#fff;--ink:#1f2937;--line:#dbe4ee;--brand:#146c94}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65;color:var(--ink);background:var(--bg)}header{background:linear-gradient(135deg,#0f4662,#19a7ce);color:white;padding:32px 20px}.wrap{max-width:1120px;margin:auto;padding:0 18px}main{padding-top:24px;padding-bottom:48px}h1{margin:0 0 8px;font-size:clamp(1.7rem,4vw,2.7rem)}h2{margin-top:28px;padding-bottom:8px;border-bottom:2px solid var(--line);color:#10384f}.lead{margin:0;color:#e6f6fb}.top-nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.top-nav a{color:white;text-decoration:none;border:1px solid rgba(255,255,255,.45);padding:7px 10px;border-radius:999px}.top-nav a.active,.top-nav a:hover{background:white;color:var(--brand)}.card,.notice{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;margin:16px 0;box-shadow:0 6px 22px rgba(15,70,98,.06)}.notice{background:#fff7ed;border-color:#fed7aa}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}table{width:100%;border-collapse:collapse}th,td{border:1px solid var(--line);padding:10px;vertical-align:top}th{background:#eaf6fb}.pill{display:inline-block;background:#e0f2fe;color:#075985;border-radius:999px;padding:4px 9px;margin:3px}.cta{display:inline-block;background:var(--brand);color:white;text-decoration:none;border-radius:10px;padding:10px 14px;margin:6px 6px 0 0}@media(max-width:640px){.wrap{padding:0 12px}.card{padding:16px}}</style></head><body><header><div class="wrap"><h1>교수님 시험 스타일 분석</h1><p class="lead">컴퓨터네트워크 기말고사 범위 Chapter 05~11 요약·재구성 노트</p><nav class="top-nav"><a class="" href="index.html">요약 홈</a><a class="" href="ch05-mac.html">Ch05</a><a class="" href="ch06-data-link.html">Ch06</a><a class="" href="ch07-ip.html">Ch07</a><a class="" href="ch08-network.html">Ch08</a><a class="" href="ch09-tcp.html">Ch09</a><a class="" href="ch10-transport.html">Ch10</a><a class="" href="ch11-upper.html">Ch11</a><a class="" href="compare-summary.html">비교·암기표</a><a class="active" href="exam-style.html">시험 스타일</a><a href="../../cbt/network_final_mock.html">CBT</a></nav></div></header><main class="wrap"><section class="notice"><b>분석 기준:</b> source/exam-style/1.png~6.png는 문제를 그대로 복제하지 않고 형식·난이도·채점 방식만 참고했습니다.</section><section class="card"><h2>확인된 문제 스타일</h2><ul><li>빈칸 채우기: 한 문장에 2~3개 핵심 용어를 넣는 방식</li><li>설명형: 특정 패킷, 제어 방식, 장비 차이를 짧게 서술</li><li>모두 고르기: 옳은/잘못된 선지를 모두 선택</li><li>단답형: 계층명, 프로토콜명, 기능명 쓰기</li><li>비교형: TCP/UDP, ARP/RARP, 허브/스위치, 흐름/혼잡 제어 비교</li></ul></section><section class="card"><h2>CBT 반영 원칙</h2><ol><li>fill-blank, multi-select, short-answer, explain을 모두 포함합니다.</li><li>설명형은 키워드 기반 채점 보조를 제공합니다.</li><li>원문과 시험 화면 문장을 그대로 복제하지 않고 새 문장으로 재구성합니다.</li></ol></section></main></body></html>
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>교수님 시험 스타일 상세 분석 | 컴퓨터네트워크 기말고사</title>
+  <link rel="stylesheet" href="../../assets/style.css">
+  <style>
+    .note-title{margin-bottom:6px} .note-sub{color:#e6f6fb;margin:0}
+    .toc{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px}
+    .toc a{display:block;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:8px 10px;text-decoration:none}
+    .term-table th:first-child{width:170px} .exam-box{background:#f8fafc;border-left:5px solid var(--brand);padding:14px;border-radius:12px;margin:10px 0}
+    .mini-title{font-weight:900;color:#10384f} .dense li{margin:.45rem 0} .keyword-line span{margin-bottom:6px}
+    @media(max-width:720px){.term-table th:first-child{width:auto}}
+  </style>
+</head>
+<body>
+<header class="site-hero"><div class="wrap">
+  <h1 class="note-title">교수님 시험 스타일 상세 분석</h1>
+  <p class="note-sub">원문 문장 복사가 아니라 시험 대비용으로 길게 풀어 쓴 상세 재구성 노트입니다.</p>
+  <nav class="top-nav"><a class="" href="index.html">요약 홈</a><a class="" href="ch05-mac.html">Ch05</a><a class="" href="ch06-data-link.html">Ch06</a><a class="" href="ch07-ip.html">Ch07</a><a class="" href="ch08-network.html">Ch08</a><a class="" href="ch09-tcp.html">Ch09</a><a class="" href="ch10-transport.html">Ch10</a><a class="" href="ch11-upper.html">Ch11</a><a class="" href="compare-summary.html">비교·암기표</a><a class="active" href="exam-style.html">시험 스타일</a><a href="../../cbt/network_final_mock.html">CBT</a><a href="../../index.html">메인</a></nav>
+</div></header>
+<main class="wrap">
+
+<section class="notice"><strong>시험 스타일 분석:</strong> 원문 문제를 그대로 옮기지 않고, 제공된 시험 화면의 형식만 분석해 재구성했습니다.</section>
+<section class="card"><h2>1. 빈칸 채우기</h2><p>문장 하나에 핵심 용어 1~3개를 넣는 형식이 많습니다. 약어만 외우기보다 '무엇을 무엇으로 바꾸는가', '어느 계층의 기능인가', '어떤 제어인가'를 같이 외워야 합니다.</p></section>
+<section class="card"><h2>2. 설명형</h2><p>HELLO/ECHO, ECN, 피기배킹, 허브와 스위치 차이처럼 짧은 정의와 핵심 키워드를 요구하는 문제가 적합합니다. 답안은 길게 쓰기보다 기능, 동작 과정, 비교 대상을 정확히 넣는 것이 중요합니다.</p></section>
+<section class="card"><h2>3. 모두 고르기형</h2><p>정답 수가 2개 이상일 수 있으므로 '항상', '반드시', '전용', '오직' 같은 단정 표현에 주의합니다. TCP/UDP, ARP/RARP, ICMP/IGMP처럼 방향이나 역할을 바꾸는 함정이 자주 만들어집니다.</p></section>
+<section class="card"><h2>4. 단답형</h2><p>계층명, 프로토콜명, 제어 방식 이름을 정확히 쓰는 유형입니다. 한글명과 영문 약어를 함께 암기하면 안전합니다.</p></section>
+<section class="card"><h2>5. 비교형</h2><p>비교형은 두 개념의 공통점보다 차이의 기준을 먼저 잡아야 합니다. 예를 들어 흐름 제어와 혼잡 제어는 둘 다 송신량 조절과 관련되지만, 기준이 수신자인지 네트워크인지가 다릅니다.</p></section>
+
+</main>
+</body>
+</html>
