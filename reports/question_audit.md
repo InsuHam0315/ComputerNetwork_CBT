@@ -67,3 +67,17 @@
 - 문제/해설의 한글 깨짐 → UTF-8 새 문항으로 교체.
 - sourceBasis 부재 → 모든 문항에 예제json 파일명과 문항 번호를 기록.
 - 4지선다 과다 → fill-blank 49, multi-select 35, explain 28, short-answer 21, multiple-choice 7로 조정.
+
+## 9. Mock exam round split
+
+- Default CBT view starts with Round 1 only, so learners see 28 questions instead of all 140 at once.
+- Each round includes the full exam range: Chapter 05 through Chapter 11.
+- Each round contains 4 questions from every chapter.
+
+| Round | Total | Type distribution | Chapter distribution |
+|---|---:|---|---|
+| Round 1 | 28 | explain 6, fill-blank 10, multi-select 7, multiple-choice 1, short-answer 4 | Chapter 05 4, Chapter 06 4, Chapter 07 4, Chapter 08 4, Chapter 09 4, Chapter 10 4, Chapter 11 4 |
+| Round 2 | 28 | explain 5, fill-blank 10, multi-select 7, multiple-choice 2, short-answer 4 | Chapter 05 4, Chapter 06 4, Chapter 07 4, Chapter 08 4, Chapter 09 4, Chapter 10 4, Chapter 11 4 |
+| Round 3 | 28 | explain 6, fill-blank 10, multi-select 7, multiple-choice 1, short-answer 4 | Chapter 05 4, Chapter 06 4, Chapter 07 4, Chapter 08 4, Chapter 09 4, Chapter 10 4, Chapter 11 4 |
+| Round 4 | 28 | explain 5, fill-blank 10, multi-select 7, multiple-choice 1, short-answer 5 | Chapter 05 4, Chapter 06 4, Chapter 07 4, Chapter 08 4, Chapter 09 4, Chapter 10 4, Chapter 11 4 |
+| Round 5 | 28 | explain 6, fill-blank 9, multi-select 7, multiple-choice 2, short-answer 4 | Chapter 05 4, Chapter 06 4, Chapter 07 4, Chapter 08 4, Chapter 09 4, Chapter 10 4, Chapter 11 4 |

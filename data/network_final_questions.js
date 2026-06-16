@@ -16,7 +16,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "IEEE 802"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-002",
@@ -35,7 +38,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "LLC"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-003",
@@ -54,7 +60,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "MAC"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-004",
@@ -73,7 +82,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "CSMA/CD"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-005",
@@ -92,7 +104,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "충돌 감지"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-006",
@@ -111,7 +126,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "토큰 버스"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-007",
@@ -130,7 +148,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "토큰 링"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-008",
@@ -153,7 +174,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "물리 주소 기반 프레임 전달과 관련된다.",
       "응용 데이터의 문자 인코딩만 변환한다.",
       "IEEE 802 계열에는 여러 MAC 방식이 포함된다."
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-009",
@@ -176,7 +200,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "802.3은 CSMA/CD와 관련된다.",
       "802.4는 토큰 링만을 의미한다.",
       "802.5는 토큰 링과 관련된다."
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-010",
@@ -199,7 +226,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "전송 중 충돌을 감지할 수 있다.",
       "충돌한 프레임도 항상 정상 수신으로 처리한다.",
       "충돌 후 재전송을 시도할 수 있다."
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-011",
@@ -222,7 +252,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "토큰 링에서는 토큰이 링을 순환한다.",
       "토큰 방식은 모든 장치가 무조건 동시에 전송하게 한다.",
       "토큰 방식은 충돌 가능성을 줄이는 데 유리하다."
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-012",
@@ -245,7 +278,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "스위치 허브는 MAC 주소를 학습해 전달할 수 있다.",
       "일반 허브는 목적지 포트만 정밀 선택한다.",
       "스위치 허브는 불필요한 전파를 줄일 수 있다."
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-013",
@@ -268,7 +304,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "IEEE",
       "802",
       "LAN"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-014",
@@ -291,7 +330,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "논리 링크",
       "상위 계층",
       "LLC"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-015",
@@ -314,7 +356,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "매체 접근",
       "물리 주소",
       "프레임"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-016",
@@ -337,7 +382,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "충돌",
       "감지",
       "CSMA/CD"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-017",
@@ -356,7 +404,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "Frame Status",
       "프레임 상태",
       "FS"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-018",
@@ -373,7 +424,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "허브"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-019",
@@ -390,7 +444,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "스위치 허브"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-020",
@@ -409,7 +466,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "ARP",
       "TCP",
       "HDLC"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-021",
@@ -428,7 +488,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "프레임"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-022",
@@ -447,7 +510,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "흐름 제어"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-023",
@@ -466,7 +532,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "오류 제어"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-024",
@@ -485,7 +554,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "정지-대기"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-025",
@@ -504,7 +576,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "슬라이딩 윈도우"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-026",
@@ -523,7 +598,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "Go-Back-N"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-027",
@@ -542,7 +620,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "선택적 재전송"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-028",
@@ -565,7 +646,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "물리 전송 오류를 검출하고 복구 절차를 수행할 수 있다.",
       "전체 인터넷 경로를 계산하는 것이 주 기능이다.",
       "흐름 제어를 통해 수신 측 부담을 줄일 수 있다."
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-029",
@@ -588,7 +672,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "타임아웃을 이용해 분실을 추정할 수 있다.",
       "응용 파일 확장자를 보고 오류를 복구한다.",
       "순서 번호로 중복과 순서를 구분할 수 있다."
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-030",
@@ -611,7 +698,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "ACK에 따라 윈도우가 이동할 수 있다.",
       "항상 한 번에 한 프레임만 보낸다.",
       "정지-대기보다 회선 이용률을 높일 수 있다."
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-031",
@@ -634,7 +724,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "선택적 재전송은 오류 프레임만 다시 보내는 데 초점을 둔다.",
       "선택적 재전송은 항상 버퍼 관리가 더 단순하다.",
       "두 방식 모두 순서 번호 관리가 필요하다."
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-032",
@@ -657,7 +750,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "정보/감독/비번호 프레임 구조를 사용할 수 있다.",
       "외부 라우팅 전용 프로토콜이다.",
       "주소·제어·검사 관련 필드를 포함할 수 있다."
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-033",
@@ -680,7 +776,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "데이터 링크",
       "전송 단위",
       "프레임"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-034",
@@ -703,7 +802,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "수신 버퍼",
       "송신량",
       "흐름 제어"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-035",
@@ -726,7 +828,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "오류",
       "ACK",
       "재전송"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-036",
@@ -749,7 +854,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "윈도우",
       "연속 전송",
       "흐름 제어"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-037",
@@ -766,7 +874,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "피기배킹"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-038",
@@ -783,7 +894,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "HDLC"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-039",
@@ -802,7 +916,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "NAK",
       "NACK",
       "부정 응답"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-040",
@@ -821,7 +938,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "ARP",
       "TCP",
       "표현 계층"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-041",
@@ -840,7 +960,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "라우팅"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-042",
@@ -859,7 +982,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "연결형 서비스"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-043",
@@ -878,7 +1004,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "비연결형 서비스"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-044",
@@ -897,7 +1026,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "혼잡 제어"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-045",
@@ -916,7 +1048,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "ECN"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-046",
@@ -935,7 +1070,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "패킷 분할"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-047",
@@ -954,7 +1092,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "TTL"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-048",
@@ -977,7 +1118,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "큰 패킷을 전송 가능한 크기로 나눌 수 있다.",
       "문자 인코딩 변환만 담당한다.",
       "혼잡 상태를 제어하는 기능을 가질 수 있다."
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-049",
@@ -1000,7 +1144,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "비연결형은 패킷별 독립 전달이 가능하다.",
       "비연결형은 항상 순서와 도착을 보장한다.",
       "IP는 비연결형 서비스 성격으로 설명된다."
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-050",
@@ -1023,7 +1170,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "정적 라우팅은 미리 정한 경로 정보를 사용할 수 있다.",
       "라우팅은 프레임 FCS만 계산하는 기능이다.",
       "동적 라우팅은 네트워크 변화에 따라 경로를 갱신할 수 있다."
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-051",
@@ -1046,7 +1196,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "혼잡을 알리거나 회피하는 기법이 있다.",
       "수신 문자 표현 방식을 통일하는 기능이다.",
       "ECN은 혼잡 징후 표시와 관련된다."
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-052",
@@ -1069,7 +1222,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "분할 조각은 식별자와 오프셋 정보로 재조립될 수 있다.",
       "분할은 항상 응용 계층에서만 처리된다.",
       "목적지에서 조각을 다시 모을 수 있다."
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-053",
@@ -1092,7 +1248,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "경로 선택",
       "라우팅",
       "라우터"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-054",
@@ -1115,7 +1274,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "연결 설정",
       "논리 경로",
       "연결형"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-055",
@@ -1138,7 +1300,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "독립 전달",
       "데이터그램",
       "비연결형"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-056",
@@ -1161,7 +1326,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "혼잡",
       "표시",
       "ECN"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-057",
@@ -1178,7 +1346,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "DHCP"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-058",
@@ -1196,7 +1367,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "acceptedAnswers": [
       "거리 벡터",
       "Distance Vector"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-059",
@@ -1214,7 +1388,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "acceptedAnswers": [
       "링크 상태",
       "Link State"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-060",
@@ -1233,7 +1410,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "ARP",
       "TCP",
       "HDLC"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-061",
@@ -1252,7 +1432,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "128"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-062",
@@ -1271,7 +1454,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "확장 헤더"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-063",
@@ -1290,7 +1476,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "Flow Label"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-064",
@@ -1309,7 +1498,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "ARP"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-065",
@@ -1328,7 +1520,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "RARP"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-066",
@@ -1347,7 +1542,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "ICMP"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-067",
@@ -1366,7 +1564,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "IGMP"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-068",
@@ -1389,7 +1590,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "기본 헤더 단순화와 확장 헤더 활용이 특징이다.",
       "IPv6는 항상 ARP와 같은 헤더 형식을 사용한다.",
       "Flow Label로 흐름 단위 처리를 지원할 수 있다."
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-069",
@@ -1412,7 +1616,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "Hop Limit은 경유할 때 감소할 수 있다.",
       "Payload Length는 항상 기본 헤더까지 포함한 크기만 뜻한다.",
       "Fragment Header는 분할 정보와 관련될 수 있다."
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-070",
@@ -1435,7 +1642,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "RARP는 MAC 주소로 IP 주소를 얻는다.",
       "ARP는 TCP 연결 해제 전용 절차이다.",
       "둘 다 주소 대응 관계를 해결하는 프로토콜이다."
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-071",
@@ -1458,7 +1668,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "Echo 요청/응답으로 도달 가능성을 확인할 수 있다.",
       "응용 파일 압축 형식을 정의한다.",
       "IP를 보조하는 제어 메시지 성격을 가진다."
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-072",
@@ -1481,7 +1694,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "호스트와 멀티캐스트 라우터 사이에서 쓰일 수 있다.",
       "TCP 순서 번호를 재계산한다.",
       "그룹 멤버십 질의와 보고가 중요하다."
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-073",
@@ -1504,7 +1720,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "IPv6",
       "128",
       "주소"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-074",
@@ -1527,7 +1746,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "확장 헤더",
       "기본 헤더",
       "IPv6"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-075",
@@ -1550,7 +1772,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "Flow Label",
       "흐름",
       "IPv6"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-076",
@@ -1573,7 +1798,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "MAC 주소",
       "IP 주소",
       "RARP"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-077",
@@ -1591,7 +1819,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "acceptedAnswers": [
       "Hop Limit",
       "홉 제한"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-078",
@@ -1610,7 +1841,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "Echo",
       "Echo 메시지",
       "ICMP Echo"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-079",
@@ -1627,7 +1861,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "멀티캐스트"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-080",
@@ -1646,7 +1883,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "ARP",
       "TCP",
       "HDLC"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-081",
@@ -1665,7 +1905,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "TCP"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-082",
@@ -1684,7 +1927,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "세그먼트"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-083",
@@ -1703,7 +1949,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "3-way handshake"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-084",
@@ -1722,7 +1971,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "순서 번호"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-085",
@@ -1741,7 +1993,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "확인 응답 번호"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-086",
@@ -1760,7 +2015,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "FIN"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-087",
@@ -1779,7 +2037,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "혼잡 제어"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-088",
@@ -1802,7 +2063,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "신뢰성 있는 데이터 전송을 지원한다.",
       "IP 주소를 MAC 주소로 변환한다.",
       "흐름 제어와 오류 제어 기능을 포함한다."
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-089",
@@ -1825,7 +2089,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "순서 번호는 데이터 순서 제어에 쓰인다.",
       "TTL은 TCP 종료 전용 필드이다.",
       "ACK 플래그는 확인 응답 번호의 유효성과 관련된다."
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-090",
@@ -1848,7 +2115,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "FIN은 연결 종료 의사 표시에 쓰일 수 있다.",
       "TCP는 항상 UDP처럼 연결 설정 없이 동작한다.",
       "3-way handshake는 양쪽 상태 확인 절차이다."
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-091",
@@ -1871,7 +2141,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "오류 제어와 흐름 제어를 수행할 수 있다.",
       "LAN 토큰 순환 순서만 결정한다.",
       "데이터 분할과 재조립을 수행할 수 있다."
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-092",
@@ -1894,7 +2167,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "확인 응답으로 수신 여부를 확인한다.",
       "손실된 데이터는 절대 재전송하지 않는다.",
       "수신 윈도우는 흐름 제어와 관련된다."
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-093",
@@ -1917,7 +2193,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "TCP",
       "연결형",
       "신뢰성"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-094",
@@ -1940,7 +2219,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "TCP",
       "세그먼트",
       "데이터 단위"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-095",
@@ -1963,7 +2245,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "SYN",
       "ACK",
       "연결 설정"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-096",
@@ -1986,7 +2271,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "ACK",
       "확인 응답",
       "TCP"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-097",
@@ -2003,7 +2291,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "포트 번호"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-098",
@@ -2020,7 +2311,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "ACK"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-099",
@@ -2037,7 +2331,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "수신 윈도우"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-100",
@@ -2056,7 +2353,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "ARP",
       "HDLC",
       "표현 계층"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-101",
@@ -2075,7 +2375,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "UDP"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-102",
@@ -2094,7 +2397,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "Source Port"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-103",
@@ -2113,7 +2419,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "Destination Port"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-104",
@@ -2132,7 +2441,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "Length"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-105",
@@ -2151,7 +2463,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "Checksum"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-106",
@@ -2170,7 +2485,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "RTP"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-107",
@@ -2189,7 +2507,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "Sequence Number"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-108",
@@ -2212,7 +2533,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "헤더 구조가 단순한 편이다.",
       "목적지 도착과 순서를 항상 보장한다.",
       "빠른 전송이 중요한 응용에 사용할 수 있다."
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-109",
@@ -2235,7 +2559,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "Length 필드는 UDP 데이터그램 크기와 관련된다.",
       "TCP와 같은 Sequence Number 필드가 필수이다.",
       "Checksum은 오류 검출에 사용될 수 있다."
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-110",
@@ -2258,7 +2585,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "도착 순서가 바뀔 수 있다.",
       "항상 3-way handshake 후 전송한다.",
       "흐름 제어와 재전송을 자체 보장하지 않는다."
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-111",
@@ -2281,7 +2611,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "Timestamp는 재생 타이밍 판단에 도움을 준다.",
       "IP 주소를 MAC 주소로 변환한다.",
       "Sequence Number는 순서 확인에 도움을 준다."
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-112",
@@ -2304,7 +2637,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "서비스 프리미티브는 계층 서비스 사용 형식이다.",
       "RTP는 세션 계층 토큰 해제만 담당한다.",
       "OSI TP는 전송 계층 프로토콜 계열로 설명된다."
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-113",
@@ -2327,7 +2663,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "UDP",
       "비연결형",
       "데이터그램"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-114",
@@ -2350,7 +2689,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "Source Port",
       "UDP",
       "포트"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-115",
@@ -2373,7 +2715,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "Destination Port",
       "UDP",
       "포트"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-116",
@@ -2396,7 +2741,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "Checksum",
       "오류 검출",
       "UDP"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-117",
@@ -2413,7 +2761,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "Timestamp"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-118",
@@ -2430,7 +2781,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "RTCP"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-119",
@@ -2447,7 +2801,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "서비스 프리미티브"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-120",
@@ -2466,7 +2823,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "ARP",
       "TCP",
       "HDLC"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-121",
@@ -2485,7 +2845,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "세션 계층"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-122",
@@ -2504,7 +2867,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "토큰"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-123",
@@ -2523,7 +2889,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "동기점"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-124",
@@ -2542,7 +2911,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "세션 연결"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-125",
@@ -2561,7 +2933,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "표현 계층"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-126",
@@ -2580,7 +2955,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "데이터 압축"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-127",
@@ -2599,7 +2977,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "blanks": [
       "응용 계층"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-128",
@@ -2622,7 +3003,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "대화 중 동기점을 둘 수 있다.",
       "IP 패킷 TTL을 감소시킨다.",
       "토큰으로 대화 권한을 제어할 수 있다."
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-129",
@@ -2645,7 +3029,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "동기 처리를 위한 토큰 개념이 있다.",
       "IP 주소를 MAC 주소로 바꾸는 표이다.",
       "종료 절차 제어에도 토큰 개념이 사용될 수 있다."
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-130",
@@ -2668,7 +3055,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "주동기점은 큰 대화 단위 경계를 나타낼 수 있다.",
       "동기점은 문자 인코딩을 ASCII로만 고정하는 기능이다.",
       "부동기점은 큰 단위 내부의 작은 기준점으로 쓸 수 있다."
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-131",
@@ -2691,7 +3081,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "데이터 압축을 수행할 수 있다.",
       "라우터 최단 경로 계산만 전담한다.",
       "암호화/복호화 같은 표현 처리와 관련될 수 있다."
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-132",
@@ -2714,7 +3107,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "클라이언트는 서비스를 요청한다.",
       "서버는 항상 세션 토큰 그 자체이다.",
       "서버는 요청을 처리하고 서비스를 제공한다."
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-133",
@@ -2737,7 +3133,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "세션",
       "대화",
       "동기"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-134",
@@ -2760,7 +3159,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "토큰",
       "권한",
       "세션"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-135",
@@ -2783,7 +3185,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "동기점",
       "복구",
       "세션"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   },
   {
     "id": "CN-FINAL-136",
@@ -2806,7 +3211,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "표현",
       "형식 변환",
       "압축"
-    ]
+    ],
+    "mockRound": 3,
+    "mockExam": "제3회",
+    "mockTitle": "제3회 모의고사"
   },
   {
     "id": "CN-FINAL-137",
@@ -2823,7 +3231,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "클라이언트"
-    ]
+    ],
+    "mockRound": 4,
+    "mockExam": "제4회",
+    "mockTitle": "제4회 모의고사"
   },
   {
     "id": "CN-FINAL-138",
@@ -2840,7 +3251,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "서버"
-    ]
+    ],
+    "mockRound": 5,
+    "mockExam": "제5회",
+    "mockTitle": "제5회 모의고사"
   },
   {
     "id": "CN-FINAL-139",
@@ -2857,7 +3271,10 @@ const NETWORK_FINAL_QUESTIONS = [
     "choices": [],
     "acceptedAnswers": [
       "상태 정보"
-    ]
+    ],
+    "mockRound": 1,
+    "mockExam": "제1회",
+    "mockTitle": "제1회 모의고사"
   },
   {
     "id": "CN-FINAL-140",
@@ -2876,7 +3293,10 @@ const NETWORK_FINAL_QUESTIONS = [
       "ARP",
       "TCP",
       "HDLC"
-    ]
+    ],
+    "mockRound": 2,
+    "mockExam": "제2회",
+    "mockTitle": "제2회 모의고사"
   }
 ];
 
